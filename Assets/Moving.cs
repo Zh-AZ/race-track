@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class Moving : MonoBehaviour
 {
-    public Transform point1;
-    public Transform point2;
+    //public Transform point1;
+    //public Transform point2;
     public Transform targetPoint;
+    public MovingPointTarget MovinPointTarget;
     public float Speed = 1.0f;
-    public bool Go;
+    //public bool Go;
     private Vector3 target;
 
     public float rotationSpeed = 1f;
@@ -23,33 +24,23 @@ public class Moving : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(RotateTowardsTarget());
+        //StartCoroutine(RotateTowardsTarget());
 
-        if (Go)
+        Move();
+    }
+
+    public void Move()
+    {
+       
+        if (MovinPointTarget.Lap < 5)
         {
+            StartCoroutine(RotateTowardsTarget());
             transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
         }
+
     }
 
-    IEnumerator RollPlane(float targetAngle)
-    {
-        float duration = 1f; // Продолжительность разворота в секундах
-        float startRotationZ = transform.eulerAngles.z; // Начальный угол по оси Z
-        float timeElapsed = 0f;
-
-        while (timeElapsed < duration)
-        {
-            if (transform.eulerAngles.z <= targetAngle)
-            {
-                timeElapsed += Time.deltaTime;
-                float angleToRotate = Mathf.Lerp(0, targetAngle, timeElapsed / duration);
-                transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, startRotationZ + angleToRotate);
-            }
-            yield return null;
-        }
-    }
-
-    IEnumerator RotateTowardsTarget()
+    public IEnumerator RotateTowardsTarget()
     {
         Quaternion startRotation = transform.rotation;
         Quaternion targetRotation = Quaternion.LookRotation(targetPoint.position - transform.position);

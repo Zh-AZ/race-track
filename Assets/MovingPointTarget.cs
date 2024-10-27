@@ -5,17 +5,16 @@ using static UnityEngine.GraphicsBuffer;
 
 public class MovingPointTarget : MonoBehaviour
 {
-    public Transform[] pointArray = new Transform[5];
-    //public Transform point2;
-    //public Transform point3;
-    //public Transform point4;
-    //public Transform point5;
+    public Transform[] pointArray = new Transform[19];
 
     public float Speed = 1.0f;
     private bool Go = true;
     private Vector3 target;
+    public bool IsAchieve = false;
+    public int Lap = 5;
+    public int LapCount = 0;
 
-    private int counter;
+    private int indexCount;
 
     // Start is called before the first frame update
     void Start()
@@ -30,18 +29,35 @@ public class MovingPointTarget : MonoBehaviour
         if (Go)
             transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * Speed);
 
-        //StartCoroutine(ChangeTarget());
-
         if (transform.position == target)
         {
             if (target != pointArray[pointArray.Length - 1].position)
             {
-                target = pointArray[counter++].position;
+                target = pointArray[indexCount++].position;
+
+                if (transform.position == pointArray[5].position)
+                {
+                    Lap = 5;
+                }
+                else if (transform.position == pointArray[10].position)
+                {
+                    Lap = 10;
+                }
+                else if (transform.position == pointArray[15].position)
+                {
+                    Lap = 15;
+                }
+                //else if (transform.position == pointArray[19].position)
+                //{
+                //    Lap = 20;
+                //}
             }
             else
             {
                 target = pointArray[0].position;
-                counter = 0;
+                indexCount = 0;
+                Lap = 0;
+                LapCount = 0;
             }
         }
     }
