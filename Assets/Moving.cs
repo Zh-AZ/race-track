@@ -24,14 +24,19 @@ public class Moving : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //StartCoroutine(RotateTowardsTarget());
+        StartCoroutine(RotateTowardsTarget());
 
         Move();
     }
 
+    //public void Move()
+    //{
+    //    transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
+    //}
+
     public void Move()
     {
-       
+
         if (MovinPointTarget.Lap < 5)
         {
             StartCoroutine(RotateTowardsTarget());
