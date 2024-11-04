@@ -5,7 +5,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class MovingPointTarget : MonoBehaviour
 {
-    public Transform[] pointArray = new Transform[24];
+    public Transform[] pointArray = new Transform[43];
     public Transform Car;
 
     public float Speed = 20f;
@@ -45,10 +45,10 @@ public class MovingPointTarget : MonoBehaviour
                 {
                     Lap = 5;
                 }
-                //else if (transform.position == pointArray[10].position)
-                //{
-                //    Lap = 10;
-                //}
+                else if (transform.position == pointArray[42].position)
+                {
+                    Lap = 10;
+                }
                 //else if (transform.position == pointArray[15].position)
                 //{
                 //    Lap = 15;
