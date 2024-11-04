@@ -5,15 +5,15 @@ using static UnityEngine.GraphicsBuffer;
 
 public class MovingPointTarget : MonoBehaviour
 {
-    public Transform[] pointArray = new Transform[43];
+    public Transform[] pointArray = new Transform[54];
     public Transform Car;
 
-    public float Speed = 20f;
-    public float MaxSpeed = 30f;
+    public float Speed;
+    public float MaxSpeed;
     private bool Go = true;
     private Vector3 target;
     public bool IsAchieve = false;
-    public int Lap = 5;
+    public int Lap = 5; //5
     public int LapCount = 0;
 
     public float minDistance;       // Минимальное расстояние от машины до `movingPoint`
@@ -27,6 +27,8 @@ public class MovingPointTarget : MonoBehaviour
     void Start()
     {
         target = pointArray[0].position;
+        //transform.position = pointArray[42].position; //Test
+        //target = pointArray[43].position;
     }
 
     // Update is called once per frame
