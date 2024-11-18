@@ -29,15 +29,15 @@ public class SecondObject : Moving
         //}
     }
 
-    public new void Move()
-    {
-        StartCoroutine(RotateTowardsTarget());
-        transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
+    //public new void Move()
+    //{
+    //    StartCoroutine(RotateTowardsTarget());
+    //    transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
 
-        //if (MovinPointTarget.Lap < 10 && MovinPointTarget.Lap >= 5)
-        //{
-        //    StartCoroutine(RotateTowardsTarget());
-        //    transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
-        //}
-    }
+    //    //if (MovinPointTarget.Lap < 10 && MovinPointTarget.Lap >= 5)
+    //    //{
+    //    //    StartCoroutine(RotateTowardsTarget());
+    //    //    transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
+    //    //}
+    //}
 }

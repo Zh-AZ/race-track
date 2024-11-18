@@ -29,16 +29,16 @@ public class ThirdObject : Moving
         //}
     }
 
-    public new void Move()
-    {
-        StartCoroutine(RotateTowardsTarget());
-        transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
+    //public new void Move()
+    //{
+    //    StartCoroutine(RotateTowardsTarget());
+    //    transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
 
 
-        //if (MovinPointTarget.Lap < 15 && MovinPointTarget.Lap >= 10)
-        //{
-        //    StartCoroutine(RotateTowardsTarget());
-        //    transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
-        //}
-    }
+    //    //if (MovinPointTarget.Lap < 15 && MovinPointTarget.Lap >= 10)
+    //    //{
+    //    //    StartCoroutine(RotateTowardsTarget());
+    //    //    transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
+    //    //}
+    //}
 }
