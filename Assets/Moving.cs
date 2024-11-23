@@ -16,7 +16,7 @@ public class Moving : MonoBehaviour
     public Moving MovingCar;
 
     //public Fouth fouth;
-    public float Speed = 1.0f;
+    public float Speed;
     public bool Go;
     private Vector3 target;
 
@@ -62,6 +62,7 @@ public class Moving : MonoBehaviour
             StartCoroutine(RotateTowardsTarget());
         }
         
+        
         transform.position = Vector3.MoveTowards(this.transform.position, targetPoint.position, Time.deltaTime * Speed);
 
         //if (MovinPointTarget.Lap < 5)
@@ -102,10 +103,12 @@ public class Moving : MonoBehaviour
         {
             elapsed += Time.deltaTime;
             transform.rotation = Quaternion.Slerp(startRotation, targetRotation, elapsed / rotationSpeed);
-            yield return null; // ќжидаем до следующего кадра
+            yield return null; 
         }
 
-        // ”станавливаем точное целевое вращение в конце
         transform.rotation = targetRotation;
     }
+
+    
+
 }

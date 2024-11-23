@@ -11,6 +11,8 @@ public class MovingPointTarget : MonoBehaviour
     public SecondObject CarBlack;
     public ThirdObject CarBlue;
 
+    public WheelTurning wheelTurning;
+
     public Transform transformMoving;
 
     public float Speed;
@@ -30,6 +32,8 @@ public class MovingPointTarget : MonoBehaviour
     private int indexCount;
 
     public float accelerationTime = 1f;
+
+    public float angleWheel;
 
     //public bool IsMove;
 
@@ -85,6 +89,8 @@ public class MovingPointTarget : MonoBehaviour
 
         //StartCoroutine(ChangeSpeed(10));
         SlowDown();
+
+        TurnWheels();
 
         //StartCoroutine(ChangeTarget());
         
@@ -151,6 +157,54 @@ public class MovingPointTarget : MonoBehaviour
         }
 
         car.Speed = targetSpeed; 
+    }
+
+    private void TurnWheels()
+    {
+
+        //if (transform.position == pointArray[2].position)
+        //{
+        //    StartCoroutine(wheelTurning.RotateLeftCoroutine(90));
+        //}
+        //else if (transform.position == pointArray[4].position)
+        //{
+        //    StartCoroutine(wheelTurning.RotateLeftCoroutine(-90));
+        //}
+        //else if (transform.position == pointArray[5].position)
+        //{
+        //    StartCoroutine(wheelTurning.RotateLeftCoroutine(90));
+        //}
+
+
+
+
+        if (transform.position == pointArray[2].position || transform.position == pointArray[4].position || transform.position == pointArray[7].position ||
+            transform.position == pointArray[14].position || transform.position == pointArray[16].position || transform.position == pointArray[18].position)
+        {
+            //StartCoroutine(wheelTurning.RotateFromMinus90ToMinus160(0.5f, -116));
+
+
+            //wheelTurning.SteerWheels(1);
+
+            //StartCoroutine(wheelTurning.RotateLeftCoroutine(angleWheel));
+
+            StartCoroutine(wheelTurning.RotateYValue(0.5f, -45));
+        }
+        else if (transform.position == pointArray[3].position || transform.position == pointArray[5].position || transform.position == pointArray[8].position ||
+            transform.position == pointArray[15].position || transform.position == pointArray[17].position || transform.position == pointArray[19].position)
+        {
+            //StartCoroutine(wheelTurning.RotateFromMinus90ToMinus160(0.5f, -90));
+
+            StartCoroutine(wheelTurning.RotateYValue(0.5f, 15));
+
+            //StartCoroutine(wheelTurning.RotateWithQuaternion(0.5f, -90));
+        }
+        //else
+        //{
+        //    //StartCoroutine(wheelTurning.RotateLeftCoroutine(0));
+
+        //    //StartCoroutine(wheelTurning.RotateWithQuaternion(0.5f, -90));
+        //}
     }
 
     private void SlowDown()
