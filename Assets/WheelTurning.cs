@@ -7,12 +7,22 @@ public class WheelTurning : MonoBehaviour
     //public float rotationSpeed = 1f;
     public Transform targetPoint;
 
+    //public Transform redFrontLeftWheel;
+    //public Transform redFrontRightWheel;
+
+    //public Transform blackFrontLeftWheel;
+    //public Transform blackFrontRightWheel;
+
+    //public Transform blueFrontLeftWheel;
+    //public Transform blueFrontRightWheel;
+
+
     private float currentSteerAngle = 0f;
     public float turnSpeed = 0.5f;
 
 
-    public float rotationAngle = 0f; // ”гол поворота налево
-    public float rotationSpeed = 5f; // —корость поворота
+    public float rotationAngle = 0f; 
+    public float rotationSpeed = 5f; 
 
     //private bool isRotating = false;
 
@@ -74,7 +84,7 @@ public class WheelTurning : MonoBehaviour
         transform.localRotation = Quaternion.Euler(0, -90 + currentSteerAngle, 0);
     }
 
-    public IEnumerator RotateYValue(float speed, float targetAngle)
+    public IEnumerator RotateYValue(float speed, float targetAngle, Transform transform)
     {
         Quaternion startRotation = transform.rotation;
         Quaternion endRotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y + targetAngle, transform.eulerAngles.z);

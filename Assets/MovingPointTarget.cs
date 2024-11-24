@@ -15,6 +15,19 @@ public class MovingPointTarget : MonoBehaviour
 
     public Transform transformMoving;
 
+    public Transform redFrontLeftWheel;
+    public Transform redFrontRightWheel;
+
+    public Transform blackFrontLeftWheel;
+    public Transform blackFrontRightWheel;
+
+    public Transform blueFrontLeftWheel;
+    public Transform blueFrontRightWheel;
+
+    public Camera redCarCamera;
+    public Camera blackCarCamera;
+    public Camera blueCarCamera;
+
     public float Speed;
     public float MaxSpeed;
     private bool Go = true;
@@ -53,6 +66,7 @@ public class MovingPointTarget : MonoBehaviour
         //AddRandomSpeed(CarRed);
         //AddRandomSpeed(CarBlue);
         //AddRandomSpeed(CarBlack);
+        ChangeCamera();
 
         if (Go)
             transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * Speed);
@@ -178,32 +192,57 @@ public class MovingPointTarget : MonoBehaviour
 
 
 
-        if (transform.position == pointArray[2].position || transform.position == pointArray[4].position || transform.position == pointArray[7].position ||
-            transform.position == pointArray[14].position || transform.position == pointArray[16].position || transform.position == pointArray[18].position)
+        //if (transform.position == pointArray[2].position || transform.position == pointArray[4].position || transform.position == pointArray[7].position ||
+        //    transform.position == pointArray[14].position || transform.position == pointArray[16].position || transform.position == pointArray[18].position)
+
+        if (transform.position == pointArray[2].position || transform.position == pointArray[4].position)
         {
-            //StartCoroutine(wheelTurning.RotateFromMinus90ToMinus160(0.5f, -116));
-
-
-            //wheelTurning.SteerWheels(1);
-
-            //StartCoroutine(wheelTurning.RotateLeftCoroutine(angleWheel));
-
-            StartCoroutine(wheelTurning.RotateYValue(0.5f, -45));
+            StartCoroutine(wheelTurning.RotateYValue(0.5f, -45, redFrontLeftWheel));
         }
-        else if (transform.position == pointArray[3].position || transform.position == pointArray[5].position || transform.position == pointArray[8].position ||
-            transform.position == pointArray[15].position || transform.position == pointArray[17].position || transform.position == pointArray[19].position)
+        //else if (transform.position == pointArray[3].position || transform.position == pointArray[5].position || transform.position == pointArray[8].position ||
+        //    transform.position == pointArray[15].position || transform.position == pointArray[17].position || transform.position == pointArray[19].position)
+
+        else if (transform.position == pointArray[3].position || transform.position == pointArray[5].position) 
         {
             //StartCoroutine(wheelTurning.RotateFromMinus90ToMinus160(0.5f, -90));
 
-            StartCoroutine(wheelTurning.RotateYValue(0.5f, 15));
+            StartCoroutine(wheelTurning.RotateYValue(0.5f, 17, redFrontLeftWheel));
 
             //StartCoroutine(wheelTurning.RotateWithQuaternion(0.5f, -90));
         }
-        //else
-        //{
-        //    //StartCoroutine(wheelTurning.RotateLeftCoroutine(0));
+        else if (transform.position == pointArray[21].position)
+        {
+            StartCoroutine(wheelTurning.RotateYValue(0.5f, 45, redFrontLeftWheel));
+        }
+        else if (transform.position == pointArray[22].position)
+        {
+            StartCoroutine(wheelTurning.RotateYValue(0.5f, -17, redFrontLeftWheel));
+        }
 
-        //    //StartCoroutine(wheelTurning.RotateWithQuaternion(0.5f, -90));
+        else if (transform.position == pointArray[27].position || transform.position == pointArray[37].position)
+        {
+            StartCoroutine(wheelTurning.RotateYValue(0.5f, -45, blackFrontLeftWheel));
+        }
+        else if (transform.position == pointArray[28].position || transform.position == pointArray[38].position)
+        {
+            StartCoroutine(wheelTurning.RotateYValue(0.5f, 17, blackFrontLeftWheel));
+        }
+
+        //else if (transform.position == pointArray[50].position)
+        //{
+        //    StartCoroutine(wheelTurning.RotateYValue(0.5f, 45, blueFrontLeftWheel));
+        //}
+        //else if (transform.position == pointArray[51].position)
+        //{
+        //    StartCoroutine(wheelTurning.RotateYValue(0.5f, -25, blueFrontLeftWheel));
+        //}
+        //else if (transform.position == pointArray[52].position)
+        //{
+        //    StartCoroutine(wheelTurning.RotateYValue(0.5f, 45, blueFrontLeftWheel));
+        //}
+        //else if (transform.position == pointArray[53].position)
+        //{
+        //    //StartCoroutine(wheelTurning.RotateYValue(0.5f, -10, blueFrontLeftWheel));
         //}
     }
 
@@ -300,6 +339,18 @@ public class MovingPointTarget : MonoBehaviour
         //{
         //    StartCoroutine(ChangeSpeed(20));
         //}
+    }
+
+    private void ChangeCamera()
+    {
+        if (transform.position == pointArray[23].position)
+        {
+            blackCarCamera.depth = 2;
+        }
+        else if (transform.position == pointArray[42].position)
+        {
+            blueCarCamera.depth = 3;
+        }
     }
 
     IEnumerator ChangeTarget()
