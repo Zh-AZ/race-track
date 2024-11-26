@@ -6,21 +6,11 @@ using Random = System.Random;
 
 public class Moving : MonoBehaviour
 {
-    //public Transform point1;
-    //public Transform point2;
     public Transform targetPoint;
 
-    public MovingPointTarget MovinPointTarget;
-    public SecondObject SecondObject;
-    public ThirdObject ThirdObject;
-    public Moving MovingCar;
-
-    //public Fouth fouth;
     public float Speed;
     public bool Go;
     private Vector3 target;
-
-    //public bool IsMove;
 
     public float rotationSpeed = 1f;
 
@@ -38,22 +28,10 @@ public class Moving : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //StartCoroutine(RotateTowardsTarget());
-
         Move();
-
-        //if (Speed == 0)
-        //{
-        //    Go = true;
-        //}
 
         AddRandomSpeed();
     }
-
-    //public void Move()
-    //{
-    //    transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
-    //}
 
     public void Move()
     {
@@ -62,22 +40,14 @@ public class Moving : MonoBehaviour
             StartCoroutine(RotateTowardsTarget());
         }
         
-        
         transform.position = Vector3.MoveTowards(this.transform.position, targetPoint.position, Time.deltaTime * Speed);
-
-        //if (MovinPointTarget.Lap < 5)
-        //{
-        //    StartCoroutine(RotateTowardsTarget());
-        //    transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Time.deltaTime * Speed);
-        //}
-
     }
 
     public void AddRandomSpeed()
     {
         fiveSecond += Time.deltaTime;
 
-        if (fiveSecond >= 5 && Speed > 0)
+        if (fiveSecond >= 1 && Speed > 0)
         {
             fiveSecond = 0;
 
@@ -108,7 +78,4 @@ public class Moving : MonoBehaviour
 
         transform.rotation = targetRotation;
     }
-
-    
-
 }

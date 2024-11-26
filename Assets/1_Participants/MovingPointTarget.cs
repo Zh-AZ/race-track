@@ -48,14 +48,12 @@ public class MovingPointTarget : MonoBehaviour
 
     public float angleWheel;
 
-    //public bool IsMove;
-
 
     // Start is called before the first frame update
     void Start()
     {
         target = pointArray[0].position;
-        StartCoroutine(ChangeSpeed(20, CarRed));
+        StartCoroutine(ChangeSpeed(Random.Next(10, 21), CarRed));
     }
         
     
@@ -63,9 +61,6 @@ public class MovingPointTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //AddRandomSpeed(CarRed);
-        //AddRandomSpeed(CarBlue);
-        //AddRandomSpeed(CarBlack);
         ChangeCamera();
 
         if (Go)
@@ -85,58 +80,12 @@ public class MovingPointTarget : MonoBehaviour
                 {
                     Lap = 10;
                 }
-                //else if (transform.position == pointArray[15].position)
-                //{
-                //    Lap = 15;
-                //}
             }
-            //else
-            //{
-            //    target = pointArray[0].position;
-            //    indexCount = 0;
-            //    Lap = 0;
-            //    LapCount = 0;
-            //}
         }
 
         ChangeDistance();
-
-        //StartCoroutine(ChangeSpeed(10));
         SlowDown();
-
         TurnWheels();
-
-        //StartCoroutine(ChangeTarget());
-        
-        //ChangeDistance();
-
-        //if (transform.position == target)
-        //{
-        //    if (target != pointArray[pointArray.Length - 1].position)
-        //    {
-        //        target = pointArray[indexCount++].position;
-
-        //        if (transform.position == pointArray[5].position)
-        //        {
-        //            Lap = 5;
-        //        }
-        //        else if (transform.position == pointArray[10].position)
-        //        {
-        //            Lap = 10;
-        //        }
-        //        else if (transform.position == pointArray[15].position)
-        //        {
-        //            Lap = 15;
-        //        }
-        //    }
-        //    else
-        //    {
-        //        target = pointArray[0].position;
-        //        indexCount = 0;
-        //        Lap = 0;
-        //        LapCount = 0;
-        //    }
-        //}
     }
 
     
@@ -146,7 +95,6 @@ public class MovingPointTarget : MonoBehaviour
     private void ChangeDistance()
     {
         float distanceToCar = Vector3.Distance(transform.position, transformMoving.position);
-        //float speed = baseSpeed;
 
         if (distanceToCar < minDistance)
         {
@@ -175,40 +123,14 @@ public class MovingPointTarget : MonoBehaviour
 
     private void TurnWheels()
     {
-
-        //if (transform.position == pointArray[2].position)
-        //{
-        //    StartCoroutine(wheelTurning.RotateLeftCoroutine(90));
-        //}
-        //else if (transform.position == pointArray[4].position)
-        //{
-        //    StartCoroutine(wheelTurning.RotateLeftCoroutine(-90));
-        //}
-        //else if (transform.position == pointArray[5].position)
-        //{
-        //    StartCoroutine(wheelTurning.RotateLeftCoroutine(90));
-        //}
-
-
-
-
-        //if (transform.position == pointArray[2].position || transform.position == pointArray[4].position || transform.position == pointArray[7].position ||
-        //    transform.position == pointArray[14].position || transform.position == pointArray[16].position || transform.position == pointArray[18].position)
-
         if (transform.position == pointArray[2].position || transform.position == pointArray[4].position)
         {
             StartCoroutine(wheelTurning.RotateYValue(0.5f, -45, redFrontLeftWheel));
         }
-        //else if (transform.position == pointArray[3].position || transform.position == pointArray[5].position || transform.position == pointArray[8].position ||
-        //    transform.position == pointArray[15].position || transform.position == pointArray[17].position || transform.position == pointArray[19].position)
 
         else if (transform.position == pointArray[3].position || transform.position == pointArray[5].position) 
         {
-            //StartCoroutine(wheelTurning.RotateFromMinus90ToMinus160(0.5f, -90));
-
             StartCoroutine(wheelTurning.RotateYValue(0.5f, 17, redFrontLeftWheel));
-
-            //StartCoroutine(wheelTurning.RotateWithQuaternion(0.5f, -90));
         }
         else if (transform.position == pointArray[21].position)
         {
@@ -227,23 +149,6 @@ public class MovingPointTarget : MonoBehaviour
         {
             StartCoroutine(wheelTurning.RotateYValue(0.5f, 17, blackFrontLeftWheel));
         }
-
-        //else if (transform.position == pointArray[50].position)
-        //{
-        //    StartCoroutine(wheelTurning.RotateYValue(0.5f, 45, blueFrontLeftWheel));
-        //}
-        //else if (transform.position == pointArray[51].position)
-        //{
-        //    StartCoroutine(wheelTurning.RotateYValue(0.5f, -25, blueFrontLeftWheel));
-        //}
-        //else if (transform.position == pointArray[52].position)
-        //{
-        //    StartCoroutine(wheelTurning.RotateYValue(0.5f, 45, blueFrontLeftWheel));
-        //}
-        //else if (transform.position == pointArray[53].position)
-        //{
-        //    //StartCoroutine(wheelTurning.RotateYValue(0.5f, -10, blueFrontLeftWheel));
-        //}
     }
 
     private void SlowDown()
@@ -322,23 +227,6 @@ public class MovingPointTarget : MonoBehaviour
             Speed = 20;
             MaxSpeed = 25;
         }
-
-
-
-        //else if (transform.position == pointArray[23].position)
-        //{
-        //     StartCoroutine(ChangeSpeed(0));
-        //}
-
-        //if (transform.position == pointArray[1].position || transform.position == pointArray[4].position || transform.position == pointArray[6].position
-        //    || transform.position == pointArray[12].position || transform.position == pointArray[15].position || transform.position == pointArray[18].position)
-        //{
-        //    StartCoroutine(ChangeSpeed(18));
-        //}
-        //else if (transform.position == pointArray[3].position)
-        //{
-        //    StartCoroutine(ChangeSpeed(20));
-        //}
     }
 
     private void ChangeCamera()

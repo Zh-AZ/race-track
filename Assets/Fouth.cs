@@ -13,10 +13,10 @@ public class Fouth : Moving
     // Update is called once per frame
     void Update()
     {
-        if (ThirdObject.IsMove)
-        {
-            Move();
-        }
+        //if (ThirdObject.IsMove)
+        //{
+        //    Move();
+        //}
     }
 
     public new void Move()
