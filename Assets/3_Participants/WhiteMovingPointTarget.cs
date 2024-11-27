@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = System.Random;
 
-
-public class GreenMovingPointTarget : MonoBehaviour
+public class WhiteMovingPointTarget : MonoBehaviour
 {
     public Transform[] pointArray = new Transform[57];
-    public GreenCar CarGreen;
+    public WhiteCar WhiteCar;
     private SecondGreenContinuation SecondGreenContinuation;
     private ThirdGreenContinuation ThirdGreenContinuation;
 
-    
+
     public Transform transformMoving;
 
     //public Transform redFrontLeftWheel;
@@ -52,7 +51,7 @@ public class GreenMovingPointTarget : MonoBehaviour
     void Start()
     {
         target = pointArray[0].position;
-        StartCoroutine(ChangeSpeed(20, CarGreen));
+        StartCoroutine(ChangeSpeed(15, WhiteCar));
     }
 
 
@@ -83,7 +82,7 @@ public class GreenMovingPointTarget : MonoBehaviour
 
         ChangeDistance();
         SlowDown();
-        
+
     }
 
 
@@ -103,7 +102,7 @@ public class GreenMovingPointTarget : MonoBehaviour
         }
     }
 
-    IEnumerator ChangeSpeed(float targetSpeed, GreenCar car)
+    IEnumerator ChangeSpeed(float targetSpeed, WhiteCar car)
     {
         float initialSpeed = car.Speed;
         float elapsedTime = 0f;
@@ -118,79 +117,79 @@ public class GreenMovingPointTarget : MonoBehaviour
         car.Speed = targetSpeed;
     }
 
-    
+
     private void SlowDown()
     {
         if (transform.position == pointArray[23].position)
         {
-            StartCoroutine(ChangeSpeed(0, CarGreen));
-            StartCoroutine(ChangeSpeed(20, SecondGreenContinuation));
+            StartCoroutine(ChangeSpeed(0, WhiteCar));
+            //StartCoroutine(ChangeSpeed(20, SecondGreenContinuation));
         }
         else if (transform.position == pointArray[42].position)
         {
-            StartCoroutine(ChangeSpeed(0, SecondGreenContinuation));
-            StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
+            //StartCoroutine(ChangeSpeed(0, SecondGreenContinuation));
+            //StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
 
             Speed = 20;
             MaxSpeed = 25;
         }
         else if (transform.position == pointArray[57].position)
         {
-            StartCoroutine(ChangeSpeed(0, ThirdGreenContinuation));
+            //StartCoroutine(ChangeSpeed(0, ThirdGreenContinuation));
         }
 
         //else if (transform.position == pointArray[38].position)
         //{
-        //    StartCoroutine(ChangeSpeed(40, SecondGreenContinuation));
+        //    //StartCoroutine(ChangeSpeed(40, SecondGreenContinuation));
 
         //    Speed = 40;
         //    MaxSpeed = 40;
         //}
         //else if (transform.position == pointArray[51].position)
         //{
-        //    StartCoroutine(ChangeSpeed(40, ThirdGreenContinuation));
+        //    //StartCoroutine(ChangeSpeed(40, ThirdGreenContinuation));
 
         //    Speed = 40;
         //    MaxSpeed = 40;
         //}
         //else if (transform.position == pointArray[52].position)
         //{
-        //    StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
+        //    //StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
 
         //    Speed = 20;
         //    MaxSpeed = 25;
         //}
         //else if (transform.position == pointArray[48].position)
         //{
-        //    StartCoroutine(ChangeSpeed(30, ThirdGreenContinuation));
+        //    //StartCoroutine(ChangeSpeed(30, ThirdGreenContinuation));
 
         //    Speed = 30;
         //    MaxSpeed = 30;
         //}
         //else if (transform.position == pointArray[49].position)
         //{
-        //    StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
+        //    //StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
 
         //    Speed = 20;
         //    MaxSpeed = 25;
         //}
         //else if (transform.position == pointArray[54].position)
         //{
-        //    StartCoroutine(ChangeSpeed(30, ThirdGreenContinuation));
+        //    //StartCoroutine(ChangeSpeed(30, ThirdGreenContinuation));
 
         //    Speed = 30;
         //    MaxSpeed = 30;
         //}
         //else if (transform.position == pointArray[55].position)
         //{
-        //    StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
+        //    //StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
 
         //    Speed = 20;
         //    MaxSpeed = 25;
         //}
         //else if (transform.position == pointArray[44].position)
         //{
-        //    StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
+        //    //StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
 
         //    Speed = 20;
         //    MaxSpeed = 25;

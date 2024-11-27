@@ -30,7 +30,7 @@ public class Moving : MonoBehaviour
     {
         Move();
 
-        AddRandomSpeed();
+        //AddRandomSpeed();
     }
 
     public void Move()

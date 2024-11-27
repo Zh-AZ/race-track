@@ -53,7 +53,7 @@ public class MovingPointTarget : MonoBehaviour
     void Start()
     {
         target = pointArray[0].position;
-        StartCoroutine(ChangeSpeed(Random.Next(10, 21), CarRed));
+        StartCoroutine(ChangeSpeed(19, CarRed));
     }
         
     
@@ -171,62 +171,62 @@ public class MovingPointTarget : MonoBehaviour
             StartCoroutine(ChangeSpeed(0, CarBlue));
         }
 
-        else if (transform.position == pointArray[38].position)
-        {
-            StartCoroutine(ChangeSpeed(40, CarBlack));
+        //else if (transform.position == pointArray[38].position)
+        //{
+        //    StartCoroutine(ChangeSpeed(40, CarBlack));
 
-            Speed = 40;
-            MaxSpeed = 40;
-        }
-        else if (transform.position == pointArray[51].position)
-        {
-            StartCoroutine(ChangeSpeed(40, CarBlue));
+        //    Speed = 40;
+        //    MaxSpeed = 40;
+        //}
+        //else if (transform.position == pointArray[51].position)
+        //{
+        //    StartCoroutine(ChangeSpeed(40, CarBlue));
 
-            Speed = 40;
-            MaxSpeed = 40;
-        }
-        else if (transform.position == pointArray[52].position)
-        {
-            StartCoroutine (ChangeSpeed(20, CarBlue));
+        //    Speed = 40;
+        //    MaxSpeed = 40;
+        //}
+        //else if (transform.position == pointArray[52].position)
+        //{
+        //    StartCoroutine (ChangeSpeed(20, CarBlue));
 
-            Speed = 20;
-            MaxSpeed = 25;
-        }
-        else if (transform.position == pointArray[48].position)
-        {
-            StartCoroutine(ChangeSpeed(30, CarBlue));
+        //    Speed = 20;
+        //    MaxSpeed = 25;
+        //}
+        //else if (transform.position == pointArray[48].position)
+        //{
+        //    StartCoroutine(ChangeSpeed(30, CarBlue));
 
-            Speed = 30;
-            MaxSpeed = 30;
-        }
-        else if (transform.position == pointArray[49].position)
-        {
-            StartCoroutine(ChangeSpeed(20, CarBlue));
+        //    Speed = 30;
+        //    MaxSpeed = 30;
+        //}
+        //else if (transform.position == pointArray[49].position)
+        //{
+        //    StartCoroutine(ChangeSpeed(20, CarBlue));
 
-            Speed = 20;
-            MaxSpeed = 25;
-        }
-        else if (transform.position == pointArray[54].position)
-        {
-            StartCoroutine(ChangeSpeed(30, CarBlue));
+        //    Speed = 20;
+        //    MaxSpeed = 25;
+        //}
+        //else if (transform.position == pointArray[54].position)
+        //{
+        //    StartCoroutine(ChangeSpeed(30, CarBlue));
 
-            Speed = 30;
-            MaxSpeed = 30;
-        }
-        else if (transform.position == pointArray[55].position)
-        {
-            StartCoroutine(ChangeSpeed(20, CarBlue));
+        //    Speed = 30;
+        //    MaxSpeed = 30;
+        //}
+        //else if (transform.position == pointArray[55].position)
+        //{
+        //    StartCoroutine(ChangeSpeed(20, CarBlue));
 
-            Speed = 20;
-            MaxSpeed = 25;
-        }
-        else if (transform.position == pointArray[44].position)
-        {
-            StartCoroutine(ChangeSpeed(20, CarBlue));
+        //    Speed = 20;
+        //    MaxSpeed = 25;
+        //}
+        //else if (transform.position == pointArray[44].position)
+        //{
+        //    StartCoroutine(ChangeSpeed(20, CarBlue));
 
-            Speed = 20;
-            MaxSpeed = 25;
-        }
+        //    Speed = 20;
+        //    MaxSpeed = 25;
+        //}
     }
 
     private void ChangeCamera()
