@@ -51,7 +51,7 @@ public class PurpleMovingPointTarget : MonoBehaviour
     void Start()
     {
         target = pointArray[0].position;
-        StartCoroutine(ChangeSpeed(15, PurpleCar));
+        StartCoroutine(ChangeSpeed(17, PurpleCar));
     }
 
 
@@ -138,6 +138,13 @@ public class PurpleMovingPointTarget : MonoBehaviour
             //StartCoroutine(ChangeSpeed(0, ThirdGreenContinuation));
         }
 
+        else if (transform.position == pointArray[20].position)
+        {
+            StartCoroutine(ChangeSpeed(15, PurpleCar));
+
+            Speed = 15;
+            MaxSpeed = 20;
+        }
         //else if (transform.position == pointArray[38].position)
         //{
         //    //StartCoroutine(ChangeSpeed(40, SecondGreenContinuation));

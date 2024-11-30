@@ -7,7 +7,7 @@ using Random = System.Random;
 public class MovingPointTarget : MonoBehaviour
 {
     public Transform[] pointArray = new Transform[57];
-    public Moving CarRed;
+    public Moving RedCar;
     public SecondObject CarBlack;
     public ThirdObject CarBlue;
 
@@ -53,7 +53,7 @@ public class MovingPointTarget : MonoBehaviour
     void Start()
     {
         target = pointArray[0].position;
-        StartCoroutine(ChangeSpeed(19, CarRed));
+        StartCoroutine(ChangeSpeed(19, RedCar));
     }
         
     
@@ -155,7 +155,7 @@ public class MovingPointTarget : MonoBehaviour
     {
         if (transform.position == pointArray[23].position)
         {
-            StartCoroutine(ChangeSpeed(0, CarRed));
+            StartCoroutine(ChangeSpeed(0, RedCar));
             StartCoroutine(ChangeSpeed(20, CarBlack));
         }
         else if (transform.position == pointArray[42].position)
@@ -171,6 +171,27 @@ public class MovingPointTarget : MonoBehaviour
             StartCoroutine(ChangeSpeed(0, CarBlue));
         }
 
+        else if (transform.position == pointArray[3].position)
+        {
+            StartCoroutine(ChangeSpeed(15, RedCar));
+
+            Speed = 15;
+            MaxSpeed = 20;
+        }
+        else if (transform.position == pointArray[4].position)
+        {
+            StartCoroutine(ChangeSpeed(20, RedCar));
+
+            Speed = 20;
+            MaxSpeed = 25;
+        }
+        else if (transform.position == pointArray[14].position)
+        {
+            StartCoroutine(ChangeSpeed(18, RedCar));
+
+            Speed = 20;
+            MaxSpeed = 25;
+        }
         //else if (transform.position == pointArray[38].position)
         //{
         //    StartCoroutine(ChangeSpeed(40, CarBlack));
