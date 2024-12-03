@@ -7,7 +7,7 @@ public class PurpleMovingPointTarget : MonoBehaviour
 {
     public Transform[] pointArray = new Transform[57];
     public PurpleCar PurpleCar;
-    private SecondGreenContinuation SecondGreenContinuation;
+    public SecondPurpleCar SecondPurpleCar;
     private ThirdGreenContinuation ThirdGreenContinuation;
 
 
@@ -58,7 +58,7 @@ public class PurpleMovingPointTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ChangeCamera();
+        //ChangeCamera();
 
         if (Go)
             transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * Speed);
@@ -102,7 +102,7 @@ public class PurpleMovingPointTarget : MonoBehaviour
         }
     }
 
-    IEnumerator ChangeSpeed(float targetSpeed, PurpleCar car)
+    IEnumerator ChangeSpeed(float targetSpeed, Moving car)
     {
         float initialSpeed = car.Speed;
         float elapsedTime = 0f;
@@ -123,7 +123,10 @@ public class PurpleMovingPointTarget : MonoBehaviour
         if (transform.position == pointArray[23].position)
         {
             StartCoroutine(ChangeSpeed(0, PurpleCar));
-            //StartCoroutine(ChangeSpeed(20, SecondGreenContinuation));
+            StartCoroutine(ChangeSpeed(0, SecondPurpleCar));
+
+            Speed = 0;
+            MaxSpeed = 0;
         }
         else if (transform.position == pointArray[42].position)
         {

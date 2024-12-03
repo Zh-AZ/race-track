@@ -8,7 +8,7 @@ public class GreenMovingPointTarget : MonoBehaviour
 {
     public Transform[] pointArray = new Transform[57];
     public GreenCar CarGreen;
-    private SecondGreenContinuation SecondGreenContinuation;
+    public SecondGreenContinuation SecondGreenContinuation;
     private ThirdGreenContinuation ThirdGreenContinuation;
 
     
@@ -59,7 +59,7 @@ public class GreenMovingPointTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ChangeCamera();
+        //ChangeCamera();
 
         if (Go)
             transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * Speed);
@@ -103,7 +103,7 @@ public class GreenMovingPointTarget : MonoBehaviour
         }
     }
 
-    IEnumerator ChangeSpeed(float targetSpeed, GreenCar car)
+    IEnumerator ChangeSpeed(float targetSpeed, Moving car)
     {
         float initialSpeed = car.Speed;
         float elapsedTime = 0f;
@@ -125,6 +125,9 @@ public class GreenMovingPointTarget : MonoBehaviour
         {
             StartCoroutine(ChangeSpeed(0, CarGreen));
             StartCoroutine(ChangeSpeed(20, SecondGreenContinuation));
+
+            Speed = 20;
+            MaxSpeed = 25;
         }
         else if (transform.position == pointArray[42].position)
         {
