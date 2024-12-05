@@ -16,7 +16,7 @@ public class SecondObject : Moving
     {
         //StartCoroutine(RotateTowardsTarget());
         Move();
-        AddRandomSpeed();
+        //AddRandomSpeed();
 
         //if (MovingCar.Go)
         //{

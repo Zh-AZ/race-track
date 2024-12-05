@@ -123,14 +123,14 @@ public class WhiteMovingPointTarget : MonoBehaviour
         if (transform.position == pointArray[23].position)
         {
             StartCoroutine(ChangeSpeed(0, WhiteCar));
-            StartCoroutine(ChangeSpeed(20, SecondWhiteCar));
+            StartCoroutine(ChangeSpeed(17, SecondWhiteCar));
 
             Speed = 20;
             MaxSpeed = 25;
         }
         else if (transform.position == pointArray[42].position)
         {
-            //StartCoroutine(ChangeSpeed(0, SecondGreenContinuation));
+            StartCoroutine(ChangeSpeed(0, SecondWhiteCar));
             //StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
 
             Speed = 20;
@@ -161,6 +161,28 @@ public class WhiteMovingPointTarget : MonoBehaviour
 
             Speed = 20;
             MaxSpeed = 25;
+        }
+
+        else if (transform.position == pointArray[27].position)
+        {
+            StartCoroutine(ChangeSpeed(20, SecondWhiteCar));
+
+            Speed = 20;
+            MaxSpeed = 25;
+        }
+        else if (transform.position == pointArray[36].position)
+        {
+            StartCoroutine(ChangeSpeed(19, SecondWhiteCar));
+
+            Speed = 19;
+            MaxSpeed = 24;
+        }
+        else if (transform.position == pointArray[39].position)
+        {
+            StartCoroutine(ChangeSpeed(33, SecondWhiteCar));
+
+            Speed = 33;
+            MaxSpeed = 38;
         }
         //else if (transform.position == pointArray[38].position)
         //{

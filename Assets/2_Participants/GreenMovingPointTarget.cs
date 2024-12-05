@@ -150,6 +150,42 @@ public class GreenMovingPointTarget : MonoBehaviour
             MaxSpeed = 20;
         }
 
+        else if (transform.position == pointArray[31].position)
+        {
+            StartCoroutine(ChangeSpeed(15, SecondGreenContinuation));
+
+            Speed = 15;
+            MaxSpeed = 20;
+        }
+        else if (transform.position == pointArray[32].position)
+        {
+            StartCoroutine(ChangeSpeed(20, SecondGreenContinuation));
+
+            Speed = 20;
+            MaxSpeed = 25;
+        }
+        else if (transform.position == pointArray[35].position)
+        {
+            StartCoroutine(ChangeSpeed(15, SecondGreenContinuation));
+
+            Speed = 15;
+            MaxSpeed = 20;
+        }
+        else if (transform.position == pointArray[36].position)
+        {
+            StartCoroutine(ChangeSpeed(25, SecondGreenContinuation));
+
+            Speed = 25;
+            MaxSpeed = 30;
+        }
+        else if (transform.position == pointArray[39].position)
+        {
+            StartCoroutine(ChangeSpeed(28, SecondGreenContinuation));
+
+            Speed = 28;
+            MaxSpeed = 33;
+        }
+
         //else if (transform.position == pointArray[38].position)
         //{
         //    StartCoroutine(ChangeSpeed(40, SecondGreenContinuation));
