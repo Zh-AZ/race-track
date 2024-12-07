@@ -9,7 +9,7 @@ public class GreenMovingPointTarget : MonoBehaviour
     public Transform[] pointArray = new Transform[57];
     public GreenCar CarGreen;
     public SecondGreenContinuation SecondGreenContinuation;
-    private ThirdGreenContinuation ThirdGreenContinuation;
+    //private ThirdGreenContinuation ThirdGreenContinuation;
 
     
     public Transform transformMoving;
@@ -129,17 +129,17 @@ public class GreenMovingPointTarget : MonoBehaviour
             Speed = 20;
             MaxSpeed = 25;
         }
-        else if (transform.position == pointArray[42].position)
+        else if (transform.position == pointArray[41].position)
         {
             StartCoroutine(ChangeSpeed(0, SecondGreenContinuation));
-            StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
+            //StartCoroutine(ChangeSpeed(20, ThirdGreenContinuation));
 
             Speed = 20;
             MaxSpeed = 25;
         }
         else if (transform.position == pointArray[57].position)
         {
-            StartCoroutine(ChangeSpeed(0, ThirdGreenContinuation));
+            //StartCoroutine(ChangeSpeed(0, ThirdGreenContinuation));
         }
 
         else if (transform.position == pointArray[10].position)
@@ -183,7 +183,7 @@ public class GreenMovingPointTarget : MonoBehaviour
             StartCoroutine(ChangeSpeed(28, SecondGreenContinuation));
 
             Speed = 28;
-            MaxSpeed = 33;
+            MaxSpeed = 28;
         }
 
         //else if (transform.position == pointArray[38].position)

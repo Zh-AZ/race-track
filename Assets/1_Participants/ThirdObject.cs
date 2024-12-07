@@ -16,7 +16,7 @@ public class ThirdObject : Moving
     void Update()
     {
         Move();
-        AddRandomSpeed();
+        //AddRandomSpeed();
 
         //if (SecondObject.IsMove)
         //{
