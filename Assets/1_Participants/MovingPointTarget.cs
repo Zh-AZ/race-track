@@ -215,6 +215,49 @@ public class MovingPointTarget : MonoBehaviour
             Speed = 30;
             MaxSpeed = 30;
         }
+
+        else if (transform.position == pointArray[48].position)
+        {
+            StartCoroutine(ChangeSpeed(20, CarBlue));
+
+            Speed = 20;
+            MaxSpeed = 25;
+        }
+        else if (transform.position == pointArray[49].position)
+        {
+            StartCoroutine(ChangeSpeed(20, CarBlue));
+
+            Speed = 20;
+            MaxSpeed = 25;
+        }
+        else if (transform.position == pointArray[51].position)
+        {
+            StartCoroutine(ChangeSpeed(33, CarBlue));
+
+            Speed = 33;
+            MaxSpeed = 38;
+        }
+        else if (transform.position == pointArray[52].position)
+        {
+            StartCoroutine(ChangeSpeed(20.50f, CarBlue));
+
+            Speed = 20;
+            MaxSpeed = 25;
+        }
+        else if (transform.position == pointArray[54].position)
+        {
+            StartCoroutine(ChangeSpeed(30, CarBlue));
+
+            Speed = 30;
+            MaxSpeed = 35;
+        }
+        else if (transform.position == pointArray[55].position)
+        {
+            StartCoroutine(ChangeSpeed(21, CarBlue));
+
+            Speed = 21;
+            MaxSpeed = 26;
+        }
         //else if (transform.position == pointArray[38].position)
         //{
         //    StartCoroutine(ChangeSpeed(40, CarBlack));

@@ -139,14 +139,14 @@ public class WhiteMovingPointTarget : MonoBehaviour
         else if (transform.position == pointArray[42].position)
         {
             //StartCoroutine(ChangeSpeed(0, CarBlack));
-            StartCoroutine(ChangeSpeed(20, ThirdWhiteCar));
+            StartCoroutine(ChangeSpeed(18, ThirdWhiteCar));
 
-            Speed = 20;
-            MaxSpeed = 25;
+            Speed = 18;
+            MaxSpeed = 23;
         }
         else if (transform.position == pointArray[57].position)
         {
-            //StartCoroutine(ChangeSpeed(0, ThirdGreenContinuation));
+            StartCoroutine(ChangeSpeed(0, ThirdWhiteCar));
         }
 
         else if (transform.position == pointArray[3].position)
@@ -191,6 +191,78 @@ public class WhiteMovingPointTarget : MonoBehaviour
 
             Speed = 33;
             MaxSpeed = 33;
+        }
+        //
+        //else if (transform.position == pointArray[48].position)
+        //{
+        //    StartCoroutine(ChangeSpeed(30, ThirdWhiteCar));
+
+        //    Speed = 30;
+        //    MaxSpeed = 35;
+        //}
+        //else if (transform.position == pointArray[49].position)
+        //{
+        //    StartCoroutine(ChangeSpeed(20, ThirdWhiteCar));
+
+        //    Speed = 20;
+        //    MaxSpeed = 25;
+        //}
+
+        else if (transform.position == pointArray[43].position)
+        {
+            StartCoroutine(ChangeSpeed(20, ThirdWhiteCar));
+
+            Speed = 20;
+            MaxSpeed = 25;
+        }
+        //else if (transform.position == pointArray[46].position)
+        //{
+        //    StartCoroutine(ChangeSpeed(25, ThirdWhiteCar));
+
+        //    Speed = 25;
+        //    MaxSpeed = 30;
+        //}
+        else if (transform.position == pointArray[48].position)
+        {
+            StartCoroutine(ChangeSpeed(35, ThirdWhiteCar));
+
+            Speed = 35;
+            MaxSpeed = 40;
+        }
+        else if (transform.position == pointArray[49].position)
+        {
+            StartCoroutine(ChangeSpeed(20, ThirdWhiteCar));
+
+            Speed = 20;
+            MaxSpeed = 25;
+        }
+        else if (transform.position == pointArray[51].position)
+        {
+            StartCoroutine(ChangeSpeed(26, ThirdWhiteCar));
+
+            Speed = 26;
+            MaxSpeed = 31;
+        }
+        else if (transform.position == pointArray[52].position)
+        {
+            StartCoroutine(ChangeSpeed(20, ThirdWhiteCar));
+
+            Speed = 20;
+            MaxSpeed = 25;
+        }
+        else if (transform.position == pointArray[54].position)
+        {
+            StartCoroutine(ChangeSpeed(30, ThirdWhiteCar));
+
+            Speed = 30;
+            MaxSpeed = 35;
+        }
+        else if (transform.position == pointArray[55].position)
+        {
+            StartCoroutine(ChangeSpeed(20, ThirdWhiteCar));
+
+            Speed = 20;
+            MaxSpeed = 25;
         }
         //else if (transform.position == pointArray[38].position)
         //{
