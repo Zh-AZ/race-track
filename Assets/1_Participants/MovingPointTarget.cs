@@ -61,7 +61,7 @@ public class MovingPointTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ChangeCamera();
+        //ChangeCamera();
 
         if (Go)
             transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * Speed);
