@@ -130,7 +130,7 @@ public class MovingPointTarget : MonoBehaviour
 
         else if (transform.position == pointArray[3].position || transform.position == pointArray[5].position) 
         {
-            StartCoroutine(wheelTurning.RotateYValue(0.5f, 17, redFrontLeftWheel));
+            StartCoroutine(wheelTurning.RotateYValue(0.5f, 30, redFrontLeftWheel));
         }
         else if (transform.position == pointArray[21].position)
         {
@@ -138,7 +138,7 @@ public class MovingPointTarget : MonoBehaviour
         }
         else if (transform.position == pointArray[22].position)
         {
-            StartCoroutine(wheelTurning.RotateYValue(0.5f, -17, redFrontLeftWheel));
+            StartCoroutine(wheelTurning.RotateYValue(0.5f, -45, redFrontLeftWheel));
         }
 
         else if (transform.position == pointArray[27].position || transform.position == pointArray[37].position)

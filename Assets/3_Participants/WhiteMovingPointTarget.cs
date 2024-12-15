@@ -245,7 +245,7 @@ public class WhiteMovingPointTarget : MonoBehaviour
         }
         else if (transform.position == pointArray[52].position)
         {
-            StartCoroutine(ChangeSpeed(20, ThirdWhiteCar));
+            StartCoroutine(ChangeSpeed(19, ThirdWhiteCar));
 
             Speed = 20;
             MaxSpeed = 25;

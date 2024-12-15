@@ -68,28 +68,30 @@ public class Surveillance : MonoBehaviour
 
         seconds += Time.deltaTime;
 
-        
-        if (seconds >= 9 && seconds < 10)
+
+
+        // Поворот 1 Red
+        if (seconds >= 5 && seconds < 7)
         {
             cameras[0].gameObject.SetActive(false);
             RedCamera.gameObject.SetActive(true);
-            //cameras[1].gameObject.SetActive(true);
         }
-        else if (seconds >= 10 && seconds < 15)
+        //
+        else if (seconds >= 7 && seconds < 10)
         {
-            cameras[1].gameObject.SetActive(false);
+            RedCamera.gameObject.SetActive(false);
+            cameras[0].gameObject.SetActive(true);
+        }
+        else if (seconds >= 10 && seconds < 17.50)
+        {
+            cameras[0].gameObject.SetActive(false);
             RedCamera.gameObject.SetActive(true);
         }
-        if (seconds >= 15 && seconds < 21)
+        else if (seconds >= 17.50 && seconds < 21)
         {
             RedCamera.gameObject.SetActive(false);
             cameras[1].gameObject.SetActive(true);
         }
-        //else if (seconds >= 14 && seconds < 19)
-        //{
-        //    cameras[1].gameObject.SetActive(false);
-        //    cameras[2].gameObject.SetActive(true);
-        //}
         else if (seconds >= 21 && seconds < 25)
         {
             cameras[1].gameObject.SetActive(false);
@@ -108,27 +110,63 @@ public class Surveillance : MonoBehaviour
             cameras[4].gameObject.SetActive(false);
             cameras[5].gameObject.SetActive(true);
         }
-        else if (seconds >= 40 && seconds < 47)
+        // Поворот направо Red
+        else if (seconds >= 40 && seconds < 43)
         {
             cameras[5].gameObject.SetActive(false);
-            cameras[6].gameObject.SetActive(true);
+            RedCamera.gameObject.SetActive(true);
         }
         //
-        else if (seconds >= 47 && seconds < 71.40)
+        else if (seconds >= 43 && seconds < 47)
+        {
+            RedCamera.gameObject.SetActive(true);
+            //cameras[5].gameObject.SetActive(false);
+            cameras[6].gameObject.SetActive(true);
+        }
+        
+        // Black
+        else if (seconds >= 47 && seconds < 54) // seconds < 71.40
         {
             cameras[6].gameObject.SetActive(false);
             cameras[7].gameObject.SetActive(true);
         }
+        // Первый поворот Black
+        else if (seconds >= 54 && seconds < 56)
+        {
+            cameras[7].gameObject.SetActive(false);
+            BlackCamera.gameObject.SetActive(true);
+        }
+        //----------
+        else if (seconds >= 56 && seconds < 71.40)
+        {
+            BlackCamera.gameObject.SetActive(false);
+            cameras[7].gameObject.SetActive(true);
+        }
+        //
         else if (seconds >= 71.40 && seconds < 75)
         {
             cameras[7].gameObject.SetActive(false);
             cameras[8].gameObject.SetActive(true);
         }
-        else if (seconds >= 75 && seconds < 93)
+        else if (seconds >= 75 && seconds < 87) // seconds < 93
         {
             cameras[8].gameObject.SetActive(false);
             cameras[9].gameObject.SetActive(true);
         }
+        // Второйй поворот Black
+        else if (seconds >= 87 && seconds < 91)
+        {
+            cameras[9].gameObject.SetActive(false);
+            BlackCamera.gameObject.SetActive(true);
+        }
+        //----------
+        // 
+        else if (seconds >= 91 && seconds < 93)
+        {
+            BlackCamera.gameObject.SetActive(false);
+            cameras[9].gameObject.SetActive(true);
+        }
+        //----------
         else if (seconds >= 93 && seconds < 95)
         {
             cameras[9].gameObject.SetActive(false);
@@ -180,7 +218,7 @@ public class Surveillance : MonoBehaviour
             cameras[14].gameObject.SetActive(false);
             BlueCamera.gameObject.SetActive(true);
         }
-        else if (seconds >= 153 && seconds < 155)
+        else if (seconds >= 153)
         {
             BlueCamera.gameObject.SetActive(false);
             cameras[15].gameObject.SetActive(true);
