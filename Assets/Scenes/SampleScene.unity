@@ -215,10 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1982538049}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!4 &2971608
 Transform:
   m_ObjectHideFlags: 0
@@ -314,10 +311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 340369505}
   Speed: 0
-  Go: 1
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!4 &5079092
 Transform:
   m_ObjectHideFlags: 0
@@ -629,10 +623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1415599670}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!1 &21984903
 GameObject:
   m_ObjectHideFlags: 0
@@ -4386,11 +4377,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moving: {fileID: 1900265687}
---- !u!4 &120565245 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6661361037562451421, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
-  m_PrefabInstance: {fileID: 171143105}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &120634005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4564,10 +4550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 340369505}
   Speed: 5
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!1 &136496671
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,7 +5681,7 @@ PrefabInstance:
     - target: {fileID: 578292433803225778, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: bbc851245a5fd204195db05583ef27e8, type: 2}
+      objectReference: {fileID: 2100000, guid: 85cf4b3da62c7d14aa9422d13b2d9f34, type: 2}
     - target: {fileID: 1370921226818325351, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
       propertyPath: m_Name
       value: Plane.011
@@ -5743,6 +5726,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5492918531875303090, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: bbc851245a5fd204195db05583ef27e8, type: 2}
+    - target: {fileID: 7812198100319695340, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: bbc851245a5fd204195db05583ef27e8, type: 2}
+    - target: {fileID: 8738588876148097915, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: bbc851245a5fd204195db05583ef27e8, type: 2}
+    - target: {fileID: 8818534223330929007, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: bbc851245a5fd204195db05583ef27e8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7369,97 +7368,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3039449313847403552, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 248028684}
-    - targetCorrespondingSourceObject: {fileID: 5560991917364049279, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 248028683}
-    - targetCorrespondingSourceObject: {fileID: 5667500032018507692, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 248028682}
-    - targetCorrespondingSourceObject: {fileID: 1936098454884059164, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 248028681}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
 --- !u!4 &248028676 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8573707047165917175, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
   m_PrefabInstance: {fileID: 248028675}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &248028677 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1936098454884059164, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-  m_PrefabInstance: {fileID: 248028675}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &248028678 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5667500032018507692, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-  m_PrefabInstance: {fileID: 248028675}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &248028679 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5560991917364049279, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-  m_PrefabInstance: {fileID: 248028675}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &248028680 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3039449313847403552, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-  m_PrefabInstance: {fileID: 248028675}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &248028681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248028677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d846237a561586948a9538f1bbb901df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moving: {fileID: 1247801369}
---- !u!114 &248028682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248028678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d846237a561586948a9538f1bbb901df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moving: {fileID: 1247801369}
---- !u!114 &248028683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248028679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d846237a561586948a9538f1bbb901df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moving: {fileID: 1247801369}
---- !u!114 &248028684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248028680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d846237a561586948a9538f1bbb901df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moving: {fileID: 1247801369}
 --- !u!1001 &249691168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8043,6 +7958,7 @@ MonoBehaviour:
   targetPoint: {fileID: 340369505}
   Speed: 5
   Go: 0
+  target: {x: 0, y: 0, z: 0}
   rotationSpeed: 0
   fiveSecond: 0
   RandomSpeed: 0
@@ -10580,9 +10496,8 @@ MonoBehaviour:
   targetPoint: {fileID: 1480557357}
   Speed: 0
   Go: 0
+  target: {x: 0, y: 0, z: 0}
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!1001 &328192343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10903,11 +10818,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moving: {fileID: 1900265687}
---- !u!4 &334939041 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7570155785160964116, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
-  m_PrefabInstance: {fileID: 171143105}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &340369504
 GameObject:
   m_ObjectHideFlags: 0
@@ -11012,29 +10922,23 @@ MonoBehaviour:
   - {fileID: 1898351530}
   - {fileID: 685428830}
   RedCar: {fileID: 5079091}
-  CarBlack: {fileID: 485667000}
-  CarBlue: {fileID: 1900265687}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
   wheelTurning: {fileID: 345903055}
   transformMoving: {fileID: 5079092}
   redFrontLeftWheel: {fileID: 345903056}
-  redFrontRightWheel: {fileID: 1604584437}
   blackFrontLeftWheel: {fileID: 2122564889}
-  blackFrontRightWheel: {fileID: 646313110}
-  blueFrontLeftWheel: {fileID: 334939041}
-  blueFrontRightWheel: {fileID: 120565245}
   redCarCamera: {fileID: 968067081}
   blackCarCamera: {fileID: 819088025}
   blueCarCamera: {fileID: 340819547}
   Speed: 20
   MaxSpeed: 25
-  IsAchieve: 1
-  Lap: 0
-  LapCount: 0
-  minDistance: 1
-  maxDistance: 2
-  RandomSpeed: 0
+  Go: 1
+  target: {x: 0, y: 0, z: 0}
+  indexCount: 0
+  MinDistance: 1
+  MaxDistance: 2
   accelerationTime: 1
-  angleWheel: 0
 --- !u!1 &340628050
 GameObject:
   m_ObjectHideFlags: 0
@@ -14820,15 +14724,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 485666999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9cae0cdf1f3ea844805ad3fa8bae615, type: 3}
+  m_Script: {fileID: 11500000, guid: 7aba991f343bbb94a90c2d865d34adce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 340369505}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
   IsMove: 0
 --- !u!4 &485667001
 Transform:
@@ -14861,10 +14762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 340369505}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!1 &486560517
 GameObject:
   m_ObjectHideFlags: 0
@@ -16076,10 +15974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 340369505}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!4 &525742124
 Transform:
   m_ObjectHideFlags: 0
@@ -17039,10 +16934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1982538049}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!1001 &565965048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19738,10 +19630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1415599670}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!1001 &645284230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19884,11 +19773,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moving: {fileID: 485667000}
---- !u!4 &646313110 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6661361037562451421, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
-  m_PrefabInstance: {fileID: 1815362366}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &646740095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20169,10 +20053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1982538049}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!1001 &651885564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32802,6 +32683,7 @@ MonoBehaviour:
   targetPoint: {fileID: 340369505}
   Speed: 0
   Go: 0
+  target: {x: 0, y: 0, z: 0}
   rotationSpeed: 0
   fiveSecond: 0
   RandomSpeed: 0
@@ -35624,10 +35506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1480557357}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!1 &1119452341
 GameObject:
   m_ObjectHideFlags: 0
@@ -36357,6 +36236,7 @@ MonoBehaviour:
   targetPoint: {fileID: 340369505}
   Speed: 0
   Go: 0
+  target: {x: 0, y: 0, z: 0}
   rotationSpeed: 0
   fiveSecond: 0
   RandomSpeed: 0
@@ -39907,9 +39787,8 @@ MonoBehaviour:
   targetPoint: {fileID: 1480557357}
   Speed: 0
   Go: 0
+  target: {x: 0, y: 0, z: 0}
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!4 &1247801370
 Transform:
   m_ObjectHideFlags: 0
@@ -44608,20 +44487,27 @@ MonoBehaviour:
   - {fileID: 247659143}
   - {fileID: 779891539}
   - {fileID: 716605661}
+  RedCar: {fileID: 0}
+  BlackCar: {fileID: 0}
+  BlueCar: {fileID: 0}
+  wheelTurning: {fileID: 0}
+  transformMoving: {fileID: 1415599670}
+  redFrontLeftWheel: {fileID: 0}
+  blackFrontLeftWheel: {fileID: 0}
+  redCarCamera: {fileID: 0}
+  blackCarCamera: {fileID: 0}
+  blueCarCamera: {fileID: 0}
+  Speed: 17
+  MaxSpeed: 22
+  Go: 1
+  target: {x: 0, y: 0, z: 0}
+  indexCount: 0
+  MinDistance: 1
+  MaxDistance: 2
+  accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
   ThirdWhiteCar: {fileID: 2056309945}
-  transformMoving: {fileID: 1415599670}
-  Speed: 17
-  MaxSpeed: 22
-  IsAchieve: 0
-  Lap: 5
-  LapCount: 0
-  minDistance: 1
-  maxDistance: 2
-  RandomSpeed: 0
-  accelerationTime: 1
-  angleWheel: 0
 --- !u!1001 &1416371537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46436,19 +46322,25 @@ MonoBehaviour:
   - {fileID: 1639891547}
   - {fileID: 1244477110}
   - {fileID: 506781041}
-  PurpleCar: {fileID: 1119263387}
-  SecondPurpleCar: {fileID: 327705830}
+  RedCar: {fileID: 0}
+  BlackCar: {fileID: 0}
+  BlueCar: {fileID: 0}
+  wheelTurning: {fileID: 0}
   transformMoving: {fileID: 1480557357}
+  redFrontLeftWheel: {fileID: 0}
+  blackFrontLeftWheel: {fileID: 0}
+  redCarCamera: {fileID: 0}
+  blackCarCamera: {fileID: 0}
+  blueCarCamera: {fileID: 0}
   Speed: 20
   MaxSpeed: 25
-  IsAchieve: 0
-  Lap: 5
-  LapCount: 0
-  minDistance: 1
-  maxDistance: 2
-  RandomSpeed: 0
+  Go: 1
+  target: {x: 0, y: 0, z: 0}
+  indexCount: 0
+  MinDistance: 1
+  MaxDistance: 2
   accelerationTime: 1
-  angleWheel: 0
+  PurpleCar: {fileID: 1119263387}
 --- !u!1001 &1481473654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49051,10 +48943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 340369505}
   Speed: 0
-  Go: 1
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!4 &1550422237
 Transform:
   m_ObjectHideFlags: 0
@@ -50683,11 +50572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moving: {fileID: 5079091}
---- !u!4 &1604584437 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6661361037562451421, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
-  m_PrefabInstance: {fileID: 817878794}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1604584440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57403,7 +57287,7 @@ PrefabInstance:
     - target: {fileID: 578292433803225778, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 77b6f43a85b08734cab31e6602309992, type: 2}
+      objectReference: {fileID: 2100000, guid: a09d6d3e80f969042868603df36ef5c9, type: 2}
     - target: {fileID: 1370921226818325351, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
       propertyPath: m_Name
       value: Plane.011
@@ -57448,6 +57332,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5492918531875303090, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: a09d6d3e80f969042868603df36ef5c9, type: 2}
+    - target: {fileID: 5492918531875303090, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: a09d6d3e80f969042868603df36ef5c9, type: 2}
+    - target: {fileID: 7812198100319695340, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: a09d6d3e80f969042868603df36ef5c9, type: 2}
+    - target: {fileID: 7812198100319695340, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: a09d6d3e80f969042868603df36ef5c9, type: 2}
+    - target: {fileID: 8738588876148097915, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: a09d6d3e80f969042868603df36ef5c9, type: 2}
+    - target: {fileID: 8738588876148097915, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: a09d6d3e80f969042868603df36ef5c9, type: 2}
+    - target: {fileID: 8818534223330929007, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: a09d6d3e80f969042868603df36ef5c9, type: 2}
+    - target: {fileID: 8818534223330929007, guid: a14ee6ec37f94dc47934977408f877a3, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: a09d6d3e80f969042868603df36ef5c9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58131,97 +58047,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3039449313847403552, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1837828655}
-    - targetCorrespondingSourceObject: {fileID: 5560991917364049279, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1837828654}
-    - targetCorrespondingSourceObject: {fileID: 5667500032018507692, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1837828653}
-    - targetCorrespondingSourceObject: {fileID: 1936098454884059164, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1837828652}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
 --- !u!4 &1837828647 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8573707047165917175, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
   m_PrefabInstance: {fileID: 1837828646}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1837828648 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1936098454884059164, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-  m_PrefabInstance: {fileID: 1837828646}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1837828649 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5667500032018507692, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-  m_PrefabInstance: {fileID: 1837828646}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1837828650 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5560991917364049279, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-  m_PrefabInstance: {fileID: 1837828646}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1837828651 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3039449313847403552, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
-  m_PrefabInstance: {fileID: 1837828646}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1837828652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837828648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d846237a561586948a9538f1bbb901df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moving: {fileID: 327705830}
---- !u!114 &1837828653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837828649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d846237a561586948a9538f1bbb901df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moving: {fileID: 327705830}
---- !u!114 &1837828654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837828650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d846237a561586948a9538f1bbb901df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moving: {fileID: 327705830}
---- !u!114 &1837828655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837828651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d846237a561586948a9538f1bbb901df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moving: {fileID: 327705830}
 --- !u!1 &1839104115
 GameObject:
   m_ObjectHideFlags: 0
@@ -59824,15 +59656,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1900265686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c3f2eabbccc60348aaadec851b6148f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f97e61716272674caab3d43a2f4e81d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 340369505}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
   IsMove: 0
 --- !u!4 &1900265688
 Transform:
@@ -59865,10 +59694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 340369505}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!1 &1900667663
 GameObject:
   m_ObjectHideFlags: 0
@@ -61623,19 +61449,26 @@ MonoBehaviour:
   - {fileID: 1059299139}
   - {fileID: 271480482}
   - {fileID: 2090404022}
-  CarGreen: {fileID: 564186016}
-  SecondGreenContinuation: {fileID: 649285436}
+  RedCar: {fileID: 0}
+  BlackCar: {fileID: 0}
+  BlueCar: {fileID: 0}
+  wheelTurning: {fileID: 0}
   transformMoving: {fileID: 564186015}
+  redFrontLeftWheel: {fileID: 0}
+  blackFrontLeftWheel: {fileID: 0}
+  redCarCamera: {fileID: 0}
+  blackCarCamera: {fileID: 0}
+  blueCarCamera: {fileID: 0}
   Speed: 20
   MaxSpeed: 25
-  IsAchieve: 0
-  Lap: 0
-  LapCount: 0
-  minDistance: 1
-  maxDistance: 2
-  RandomSpeed: 0
+  Go: 1
+  target: {x: 0, y: 0, z: 0}
+  indexCount: 0
+  MinDistance: 1
+  MaxDistance: 2
   accelerationTime: 1
-  angleWheel: 0
+  CarGreen: {fileID: 564186016}
+  SecondGreenContinuation: {fileID: 649285436}
 --- !u!1001 &1982796780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63586,10 +63419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 1415599670}
   Speed: 0
-  Go: 0
   rotationSpeed: 0
-  fiveSecond: 0
-  RandomSpeed: 0
 --- !u!4 &2056309946
 Transform:
   m_ObjectHideFlags: 0

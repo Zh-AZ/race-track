@@ -7,30 +7,13 @@ using Random = System.Random;
 public class Moving : MonoBehaviour
 {
     public Transform targetPoint;
-
     public float Speed;
-    public bool Go;
-    private Vector3 target;
-
     public float rotationSpeed = 1f;
-
-    public float fiveSecond;
-    Random Random = new Random();
-    public int RandomSpeed;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
         Move();
-
-        //AddRandomSpeed();
     }
 
     public void Move()
@@ -41,25 +24,6 @@ public class Moving : MonoBehaviour
         }
         
         transform.position = Vector3.MoveTowards(this.transform.position, targetPoint.position, Time.deltaTime * Speed);
-    }
-
-    public void AddRandomSpeed()
-    {
-        fiveSecond += Time.deltaTime;
-
-        if (fiveSecond >= 1 && Speed > 0)
-        {
-            fiveSecond = 0;
-
-            if (Random.Next(2) == 0 && Speed > 18)
-            {
-                Speed -= Random.Next(1, 2);
-            }
-            else if (Random.Next(2) == 1 && Speed < 20)
-            {
-                Speed += Random.Next(1, 2);
-            }
-        }
     }
 
     public IEnumerator RotateTowardsTarget()
