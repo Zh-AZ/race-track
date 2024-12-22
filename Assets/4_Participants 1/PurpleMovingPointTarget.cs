@@ -32,6 +32,9 @@ public class PurpleMovingPointTarget : MovingPointTarget
         SlowDown();
     }
 
+    /// <summary>
+    /// «амедление и ускорение в нужных точках
+    /// </summary>
     private void SlowDown()
     {
         if (transform.position == pointArray[23].position)

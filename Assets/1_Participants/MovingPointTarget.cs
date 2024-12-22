@@ -49,6 +49,7 @@ public class MovingPointTarget : MonoBehaviour
         //        target = pointArray[indexCount++].position;
         //    }
         //}
+
         GoTarget();
 
         ChangeDistance();
@@ -56,6 +57,9 @@ public class MovingPointTarget : MonoBehaviour
         TurnWheels();
     }
 
+    /// <summary>
+    /// Смена цели и движение
+    /// </summary>
     public void GoTarget()
     {
         if (Go)
@@ -70,6 +74,9 @@ public class MovingPointTarget : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Менять скорость в зависимости от расстояния машины к цели
+    /// </summary>
     public void ChangeDistance()
     {
         float distanceToCar = Vector3.Distance(transform.position, transformMoving.position);
@@ -84,6 +91,12 @@ public class MovingPointTarget : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Изменить скорость машины к указанному значаниею
+    /// </summary>
+    /// <param name="targetSpeed"></param>
+    /// <param name="car"></param>
+    /// <returns></returns>
     public IEnumerator ChangeSpeed(float targetSpeed, Moving car)
     {
         float initialSpeed = car.Speed;
@@ -99,6 +112,9 @@ public class MovingPointTarget : MonoBehaviour
         car.Speed = targetSpeed; 
     }
 
+    /// <summary>
+    /// Поворот колеса в нужных точках
+    /// </summary>
     private void TurnWheels()
     {
         if (transform.position == pointArray[2].position || transform.position == pointArray[4].position)
@@ -129,6 +145,9 @@ public class MovingPointTarget : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Замедление и ускорение в нужных точках
+    /// </summary>
     private void SlowDown()
     {
         if (transform.position == pointArray[23].position)

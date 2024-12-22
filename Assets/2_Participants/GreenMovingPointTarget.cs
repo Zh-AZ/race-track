@@ -37,6 +37,9 @@ public class GreenMovingPointTarget : MovingPointTarget
 
     //1 4 6 9 12 15 18
 
+    /// <summary>
+    /// «амедление и ускорение в нужных точках
+    /// </summary>
     private void SlowDown()
     {
         if (transform.position == pointArray[23].position)
