@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class WheelTurning : MonoBehaviour
 {
+    /// <summary>
+    /// Поворот колеса до нужного угла
+    /// </summary>
+    /// <param name="speed"></param>
+    /// <param name="targetAngle"></param>
+    /// <param name="transform"></param>
+    /// <returns></returns>
     public IEnumerator RotateYValue(float speed, float targetAngle, Transform transform)
     {
         Quaternion startRotation = transform.rotation;

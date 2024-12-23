@@ -22,21 +22,11 @@ public class Surveillance : MonoBehaviour
     void Start()
     {
         cameras[0].gameObject.SetActive(true);
-        cameras[1].gameObject.SetActive(false);
-        cameras[2].gameObject.SetActive(false);
-        cameras[3].gameObject.SetActive(false);
-        cameras[4].gameObject.SetActive(false);
-        cameras[5].gameObject.SetActive(false);
-        cameras[6].gameObject.SetActive(false);
-        cameras[7].gameObject.SetActive(false);
-        cameras[8].gameObject.SetActive(false);
-        cameras[9].gameObject.SetActive(false);
-        cameras[10].gameObject.SetActive(false);
-        cameras[11].gameObject.SetActive(false);
-        cameras[12].gameObject.SetActive(false);
-        cameras[13].gameObject.SetActive(false);
-        cameras[14].gameObject.SetActive(false);
-        cameras[15].gameObject.SetActive(false);
+
+        for (int i = 1; i < cameras.Length; i++)
+        {
+            cameras[i].gameObject.SetActive(false);
+        }
 
         RedCamera.gameObject.SetActive(false);
         BlackCamera.gameObject.SetActive(false);
@@ -46,30 +36,25 @@ public class Surveillance : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transforms[0].LookAt(purpleCar);
-        transforms[1].LookAt(purpleCar);
-        transforms[2].LookAt(purpleCar);
-        transforms[3].LookAt(purpleCar);
-        transforms[4].LookAt(purpleCar);
-        transforms[5].LookAt(purpleCar);
-        transforms[6].LookAt(purpleCar);
-
-
-        transforms[7].LookAt(whiteCar);
-        transforms[8].LookAt(whiteCar);
-        transforms[9].LookAt(whiteCar);
-        transforms[10].LookAt(whiteCar);
-
-        transforms[11].LookAt(blueCar);
-        transforms[12].LookAt(blueCar);
-        transforms[13].LookAt(blueCar);
-        transforms[14].LookAt(blueCar);
-        transforms[15].LookAt(blueCar);
+        for (int i = 0; i < transforms.Length; i++)
+        {
+            if (i <= 6)
+            {
+                transforms[i].LookAt(purpleCar);
+            }
+            else if (i > 6 && i <= 10)
+            {
+                transforms[i].LookAt(whiteCar);
+            }
+            else
+            {
+                transforms[i].LookAt(blueCar);
+            }
+        }
 
         seconds += Time.deltaTime;
 
-
-
+        // Таймер смены камер
         // Поворот 1 Red
         if (seconds >= 5 && seconds < 7)
         {
