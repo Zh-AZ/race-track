@@ -39,19 +39,7 @@ public class MovingPointTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (Go)
-        //    transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * Speed);
-
-        //if (transform.position == target)
-        //{
-        //    if (target != pointArray[pointArray.Length - 1].position)
-        //    {
-        //        target = pointArray[indexCount++].position;
-        //    }
-        //}
-
         GoTarget();
-
         ChangeDistance();
         SlowDown();
         TurnWheels();
@@ -92,7 +80,7 @@ public class MovingPointTarget : MonoBehaviour
     }
 
     /// <summary>
-    /// Изменить скорость машины к указанному значаниею
+    /// Изменить скорость машины к указанному значению
     /// </summary>
     /// <param name="targetSpeed"></param>
     /// <param name="car"></param>
