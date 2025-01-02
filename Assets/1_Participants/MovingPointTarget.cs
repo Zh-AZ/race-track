@@ -41,7 +41,7 @@ public class MovingPointTarget : MonoBehaviour
     {
         GoTarget();
         ChangeDistance();
-        SlowDown();
+        //SlowDown();
         TurnWheels();
     }
 
@@ -140,106 +140,106 @@ public class MovingPointTarget : MonoBehaviour
     {
         if (transform.position == pointArray[23].position)
         {
-            StartCoroutine(ChangeSpeed(0, RedCar));
-            StartCoroutine(ChangeSpeed(20, BlackCar));
+            //StartCoroutine(ChangeSpeed(0, RedCar));
+            //StartCoroutine(ChangeSpeed(20, BlackCar));
         }
         else if (transform.position == pointArray[41].position)
         {
-            StartCoroutine(ChangeSpeed(0, BlackCar));
+            //StartCoroutine(ChangeSpeed(0, BlackCar));
 
-            Speed = 20;
-            MaxSpeed = 25;
+            //Speed = 20;
+            //MaxSpeed = 25;
         }
         else if (transform.position == pointArray[42].position)
         {
-            StartCoroutine(ChangeSpeed(20, BlueCar));
+            //StartCoroutine(ChangeSpeed(20, BlueCar));
 
-            Speed = 20;
-            MaxSpeed = 25;
+            //Speed = 20;
+            //MaxSpeed = 25;
         }
         else if (transform.position == pointArray[57].position)
         {
-            StartCoroutine(ChangeSpeed(0, BlueCar));
+            //StartCoroutine(ChangeSpeed(0, BlueCar));
         }
 
         else if (transform.position == pointArray[3].position)
         {
-            StartCoroutine(ChangeSpeed(15, RedCar));
+            //StartCoroutine(ChangeSpeed(15, RedCar));
 
-            Speed = 15;
-            MaxSpeed = 20;
+            //Speed = 15;
+            //MaxSpeed = 20;
         }
         else if (transform.position == pointArray[4].position)
         {
-            StartCoroutine(ChangeSpeed(20, RedCar));
+            //StartCoroutine(ChangeSpeed(20, RedCar));
 
-            Speed = 20;
-            MaxSpeed = 25;
+            //Speed = 20;
+            //MaxSpeed = 25;
         }
         else if (transform.position == pointArray[14].position)
         {
-            StartCoroutine(ChangeSpeed(18, RedCar));
+            //StartCoroutine(ChangeSpeed(18, RedCar));
 
-            Speed = 20;
-            MaxSpeed = 25;
+            //Speed = 20;
+            //MaxSpeed = 25;
         }
 
         else if (transform.position == pointArray[25].position)
         {
-            StartCoroutine(ChangeSpeed(18, BlackCar));
+            //StartCoroutine(ChangeSpeed(18, BlackCar));
 
-            Speed = 20;
-            MaxSpeed = 25;
+            //Speed = 20;
+            //MaxSpeed = 25;
         }
         else if (transform.position == pointArray[39].position)
         {
-            StartCoroutine(ChangeSpeed(30, BlackCar));
+            //StartCoroutine(ChangeSpeed(30, BlackCar));
 
-            Speed = 30;
-            MaxSpeed = 30;
+            //Speed = 30;
+            //MaxSpeed = 30;
         }
 
         else if (transform.position == pointArray[48].position)
         {
-            StartCoroutine(ChangeSpeed(20, BlueCar));
+            //StartCoroutine(ChangeSpeed(20, BlueCar));
 
-            Speed = 20;
-            MaxSpeed = 25;
+            //Speed = 20;
+            //MaxSpeed = 25;
         }
         else if (transform.position == pointArray[49].position)
         {
-            StartCoroutine(ChangeSpeed(20, BlueCar));
+            //StartCoroutine(ChangeSpeed(20, BlueCar));
 
-            Speed = 20;
-            MaxSpeed = 25;
+            //Speed = 20;
+            //MaxSpeed = 25;
         }
         else if (transform.position == pointArray[51].position)
         {
-            StartCoroutine(ChangeSpeed(33, BlueCar));
+            //StartCoroutine(ChangeSpeed(33, BlueCar));
 
-            Speed = 33;
-            MaxSpeed = 38;
+            //Speed = 33;
+            //MaxSpeed = 38;
         }
         else if (transform.position == pointArray[52].position)
         {
-            StartCoroutine(ChangeSpeed(20.50f, BlueCar));
+            //StartCoroutine(ChangeSpeed(20.50f, BlueCar));
 
-            Speed = 20;
-            MaxSpeed = 25;
+            //Speed = 20;
+            //MaxSpeed = 25;
         }
         else if (transform.position == pointArray[54].position)
         {
-            StartCoroutine(ChangeSpeed(30, BlueCar));
+            //StartCoroutine(ChangeSpeed(30, BlueCar));
 
-            Speed = 30;
-            MaxSpeed = 35;
+            //Speed = 30;
+            //MaxSpeed = 35;
         }
         else if (transform.position == pointArray[55].position)
         {
-            StartCoroutine(ChangeSpeed(21, BlueCar));
+            //StartCoroutine(ChangeSpeed(21, BlueCar));
 
-            Speed = 21;
-            MaxSpeed = 26;
+            //Speed = 21;
+            //MaxSpeed = 26;
         }
     }
 

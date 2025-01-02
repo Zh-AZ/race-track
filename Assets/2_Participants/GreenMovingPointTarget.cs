@@ -31,7 +31,7 @@ public class GreenMovingPointTarget : MovingPointTarget
         }
 
         ChangeDistance();
-        SlowDown();
+        //SlowDown();
 
     }
 

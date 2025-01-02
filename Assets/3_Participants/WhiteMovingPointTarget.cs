@@ -32,7 +32,7 @@ public class WhiteMovingPointTarget : MovingPointTarget
         }
 
         ChangeDistance();
-        SlowDown();
+        //SlowDown();
     }
 
     /// <summary>

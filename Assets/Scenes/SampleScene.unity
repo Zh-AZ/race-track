@@ -2515,6 +2515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 69908625}
+  - component: {fileID: 69908626}
   m_Layer: 0
   m_Name: Point_1 (41)
   m_TagString: Untagged
@@ -2537,6 +2538,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &69908626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69908624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efa8b11353e1f54fadc5186fae1151e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &71915466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3425,6 +3444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 88331212}
+  - component: {fileID: 88331213}
   m_Layer: 0
   m_Name: Point_1 (10)
   m_TagString: Untagged
@@ -3447,6 +3467,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 934122160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &88331213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88331211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d064634bc773d4bb717705286d1d3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1982538049}
+  accelerationTime: 1
+  CarGreen: {fileID: 564186016}
+  SecondGreenContinuation: {fileID: 649285436}
+  GreenMovingPointTarget: {fileID: 1982538050}
 --- !u!1 &88415804
 GameObject:
   m_ObjectHideFlags: 0
@@ -3456,6 +3493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 88415805}
+  - component: {fileID: 88415806}
   m_Layer: 0
   m_Name: Point_1 (23)
   m_TagString: Untagged
@@ -3478,6 +3516,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 934122160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &88415806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88415804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bb5d2eb30430854fbbff818e05c216b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1982538049}
+  accelerationTime: 1
+  CarGreen: {fileID: 564186016}
+  SecondGreenContinuation: {fileID: 649285436}
+  GreenMovingPointTarget: {fileID: 1982538050}
 --- !u!1001 &89222161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4922,6 +4977,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 138347213}
+  - component: {fileID: 138347214}
   m_Layer: 0
   m_Name: Point_1 (49)
   m_TagString: Untagged
@@ -4944,6 +5000,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &138347214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138347212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f170e1792cc1a6438f7b688327bec4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &140114791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6623,6 +6697,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 216246659}
+  - component: {fileID: 216246660}
   m_Layer: 0
   m_Name: Point_1 (55)
   m_TagString: Untagged
@@ -6645,6 +6720,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &216246660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216246658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9e43e121979374ea52fa20da97ee13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &217520639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7229,6 +7322,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 244372190}
+  - component: {fileID: 244372191}
   m_Layer: 0
   m_Name: Point_1 (23)
   m_TagString: Untagged
@@ -7251,6 +7345,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &244372191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244372189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f04de449c258a478068eeef3738764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1 &246391758
 GameObject:
   m_ObjectHideFlags: 0
@@ -7353,6 +7465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 247659143}
+  - component: {fileID: 247659144}
   m_Layer: 0
   m_Name: Point_1 (55)
   m_TagString: Untagged
@@ -7375,6 +7488,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &247659144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247659142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ac4972bf0fe6242aad8cb6cf0acea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &247756831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8156,6 +8287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 268938966}
+  - component: {fileID: 268938967}
   m_Layer: 0
   m_Name: Point_1 (36)
   m_TagString: Untagged
@@ -8178,6 +8310,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &268938967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268938965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2005d3741f308479493a5617df2e14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &269909724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9559,6 +9709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 297119539}
+  - component: {fileID: 297119540}
   m_Layer: 0
   m_Name: Point_1 (25)
   m_TagString: Untagged
@@ -9581,6 +9732,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &297119540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297119538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a5ba3efc393a14596d622d5558df93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &297928671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11933,6 +12102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 388944913}
+  - component: {fileID: 388944914}
   m_Layer: 0
   m_Name: Point_1 (14)
   m_TagString: Untagged
@@ -11955,6 +12125,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &388944914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388944912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83593567d774ed94b8453346892f71ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &390051970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13130,6 +13318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 446533893}
+  - component: {fileID: 446533894}
   m_Layer: 0
   m_Name: Point_1 (3)
   m_TagString: Untagged
@@ -13152,6 +13341,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &446533894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446533892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0292adaca3cfb4b8ca53e7154396ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &447225684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14338,6 +14545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 482487877}
+  - component: {fileID: 482487878}
   m_Layer: 0
   m_Name: Point_1 (4)
   m_TagString: Untagged
@@ -14360,6 +14568,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &482487878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482487876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b47c56e4954804385b1c77b09a08bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &482522951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15611,6 +15837,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 512590376}
+  - component: {fileID: 512590377}
   m_Layer: 0
   m_Name: Point_1 (42)
   m_TagString: Untagged
@@ -15633,6 +15860,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &512590377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512590375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9fc9875b13540e46be4ab0afb181ab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 0}
+  BlackCar: {fileID: 0}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &514240491
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16525,6 +16770,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 553422278}
+  - component: {fileID: 553422279}
   m_Layer: 0
   m_Name: Point_1 (54)
   m_TagString: Untagged
@@ -16547,6 +16793,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &553422279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553422277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d208b122b30cdf43b8d40c5adc23769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1 &553817878
 GameObject:
   m_ObjectHideFlags: 0
@@ -17481,6 +17745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 578888437}
+  - component: {fileID: 578888438}
   m_Layer: 0
   m_Name: Point_1 (39)
   m_TagString: Untagged
@@ -17503,6 +17768,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 934122160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &578888438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578888436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fcaddd7715605469ffc0ded247e481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1982538049}
+  accelerationTime: 1
+  CarGreen: {fileID: 564186016}
+  SecondGreenContinuation: {fileID: 649285436}
+  GreenMovingPointTarget: {fileID: 1982538050}
 --- !u!1001 &579916098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18324,6 +18606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 597348999}
+  - component: {fileID: 597349000}
   m_Layer: 0
   m_Name: Point_1 (11)
   m_TagString: Untagged
@@ -18346,6 +18629,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &597349000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597348998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117c95ffed973354f8b9e4674ea0d611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &597923423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20795,6 +21096,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 681724527}
+  - component: {fileID: 681724528}
   m_Layer: 0
   m_Name: Point_1 (48)
   m_TagString: Untagged
@@ -20817,6 +21119,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &681724528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681724526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef320841bc7ae5943add9c4f7e44e785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1 &685428829
 GameObject:
   m_ObjectHideFlags: 0
@@ -20826,6 +21146,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 685428830}
+  - component: {fileID: 685428831}
   m_Layer: 0
   m_Name: Point_1 (57)
   m_TagString: Untagged
@@ -20848,6 +21169,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &685428831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685428829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c199922e8046a0d4ebfe7eef11994034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 0}
+  BlackCar: {fileID: 0}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &685628492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21390,6 +21729,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 698574718}
+  - component: {fileID: 698574719}
   m_Layer: 0
   m_Name: Point_1 (31)
   m_TagString: Untagged
@@ -21412,6 +21752,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 934122160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &698574719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698574717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae608b20e445d874aa75b9883c2c7b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1982538049}
+  accelerationTime: 1
+  CarGreen: {fileID: 564186016}
+  SecondGreenContinuation: {fileID: 649285436}
+  GreenMovingPointTarget: {fileID: 1982538050}
 --- !u!1001 &699187436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21817,6 +22174,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 706519626}
+  - component: {fileID: 706519627}
   m_Layer: 0
   m_Name: Point_1 (54)
   m_TagString: Untagged
@@ -21839,6 +22197,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &706519627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706519625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e27a2292b52e534a986d39136f70642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &706964782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22161,6 +22537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 716605661}
+  - component: {fileID: 716605662}
   m_Layer: 0
   m_Name: Point_1 (57)
   m_TagString: Untagged
@@ -22183,6 +22560,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &716605662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716605660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4201c950ede965543a33448fc5ecee88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1 &716606168
 GameObject:
   m_ObjectHideFlags: 0
@@ -26037,6 +26432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 834897763}
+  - component: {fileID: 834897764}
   m_Layer: 0
   m_Name: Point_1 (39)
   m_TagString: Untagged
@@ -26059,6 +26455,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &834897764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834897762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1fc6185f8471784e8bebafcf4393b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1 &836318704
 GameObject:
   m_ObjectHideFlags: 0
@@ -28562,6 +28976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 935509503}
+  - component: {fileID: 935509504}
   m_Layer: 0
   m_Name: Point_1 (3)
   m_TagString: Untagged
@@ -28584,6 +28999,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &935509504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935509502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76f9bd03276b324e86a9cc762e29107, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &936130879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29665,13 +30098,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968067078}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.108940236, y: 0.034578122, z: 0.005076067, w: 0.9934338}
+  m_LocalRotation: {x: 0.09209275, y: -0.07756675, z: 0.01612938, w: 0.99259365}
   m_LocalPosition: {x: -1.4596055, y: 0.06384373, z: 1.2271025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5079092}
-  m_LocalEulerAnglesHint: {x: 12.48, y: 4.1, z: 1.034}
+  m_LocalEulerAnglesHint: {x: 10.68, y: -8.84, z: 1.034}
 --- !u!20 &968067081
 Camera:
   m_ObjectHideFlags: 0
@@ -29705,7 +30138,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 72
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -32458,6 +32891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1048349590}
+  - component: {fileID: 1048349591}
   m_Layer: 0
   m_Name: Point_1 (43)
   m_TagString: Untagged
@@ -32480,6 +32914,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1048349591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048349589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 855cad51012ee75499988af4e567cbec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &1053026555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39832,6 +40284,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1264729226}
+  - component: {fileID: 1264729227}
   m_Layer: 0
   m_Name: Point_1 (39)
   m_TagString: Untagged
@@ -39854,6 +40307,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1264729227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264729225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a964a0bb9029634f8d20749a82b6ce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &1268485179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41406,6 +41877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1314708204}
+  - component: {fileID: 1314708205}
   m_Layer: 0
   m_Name: Point_1 (49)
   m_TagString: Untagged
@@ -41428,6 +41900,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1314708205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314708203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87dbca913b2125e4c947cf77cba4a3dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &1316535790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41530,6 +42020,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1320899157}
+  - component: {fileID: 1320899158}
   m_Layer: 0
   m_Name: Point_1 (23)
   m_TagString: Untagged
@@ -41552,6 +42043,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1320899158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320899156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c159899b6fd0cd14abc42da29427a971, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 0}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &1321408255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42261,6 +42770,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1369766732}
+  - component: {fileID: 1369766733}
   m_Layer: 0
   m_Name: Point_1 (35)
   m_TagString: Untagged
@@ -42283,6 +42793,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 934122160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1369766733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369766731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2078a605d7331644bafadcc189bf2462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1982538049}
+  accelerationTime: 1
+  CarGreen: {fileID: 564186016}
+  SecondGreenContinuation: {fileID: 649285436}
+  GreenMovingPointTarget: {fileID: 1982538050}
 --- !u!1 &1370403499 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6838220188309415559, guid: 45879a32a80365d4887c3b97646ba18a, type: 3}
@@ -44373,6 +44900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1429035851}
+  - component: {fileID: 1429035852}
   m_Layer: 0
   m_Name: Point_1 (52)
   m_TagString: Untagged
@@ -44395,6 +44923,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1429035852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429035850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d31c70cb80caae4183e857a6f975f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &1430038395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50206,6 +50752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1605087585}
+  - component: {fileID: 1605087586}
   m_Layer: 0
   m_Name: Point_1 (32)
   m_TagString: Untagged
@@ -50228,6 +50775,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 934122160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1605087586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605087584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e819691931fc99a4b9c5e6284f03c255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1982538049}
+  accelerationTime: 1
+  CarGreen: {fileID: 564186016}
+  SecondGreenContinuation: {fileID: 649285436}
+  GreenMovingPointTarget: {fileID: 1982538050}
 --- !u!1 &1605649691
 GameObject:
   m_ObjectHideFlags: 0
@@ -51758,6 +52322,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1649721319}
+  - component: {fileID: 1649721320}
   m_Layer: 0
   m_Name: Point_1 (51)
   m_TagString: Untagged
@@ -51780,6 +52345,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1649721320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649721318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40771f814fef29e43b6f14a169a5d807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &1650397661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52477,6 +53060,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1679368207}
+  - component: {fileID: 1679368208}
   m_Layer: 0
   m_Name: Point_1 (8)
   m_TagString: Untagged
@@ -52499,6 +53083,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1679368208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679368206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca35921371bf2f54aa650769345b1dad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1 &1681924305 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5560991917364049279, guid: cdc0a26d05261f34991233505ea482c4, type: 3}
@@ -57492,6 +58094,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1846979503}
+  - component: {fileID: 1846979504}
   m_Layer: 0
   m_Name: Point_1 (41)
   m_TagString: Untagged
@@ -57514,6 +58117,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1846979504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846979502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2918edcca4e4814daec639721725a91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 0}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 0}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &1850509201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58557,6 +59178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1897148258}
+  - component: {fileID: 1897148259}
   m_Layer: 0
   m_Name: Point_1 (48)
   m_TagString: Untagged
@@ -58579,6 +59201,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1897148259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897148257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab5c361c157f8c438002ba38b8beb9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1 &1898351529
 GameObject:
   m_ObjectHideFlags: 0
@@ -58681,6 +59321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1899715668}
+  - component: {fileID: 1899715669}
   m_Layer: 0
   m_Name: Point_1 (41)
   m_TagString: Untagged
@@ -58703,6 +59344,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 934122160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1899715669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899715667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47a0843ccd4d12c4fa7641a24898d17f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1982538049}
+  accelerationTime: 1
+  CarGreen: {fileID: 564186016}
+  SecondGreenContinuation: {fileID: 649285436}
+  GreenMovingPointTarget: {fileID: 1982538050}
 --- !u!1001 &1899882294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59563,6 +60221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1943663961}
+  - component: {fileID: 1943663962}
   m_Layer: 0
   m_Name: Point_1 (51)
   m_TagString: Untagged
@@ -59585,6 +60244,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857728768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1943663962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943663960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9687ad5be571bf4ba921ed4fbc0916d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 340369505}
+  accelerationTime: 1
+  RedCar: {fileID: 5079091}
+  BlackCar: {fileID: 485667000}
+  BlueCar: {fileID: 1900265687}
+  MovingPointTarget: {fileID: 340369506}
 --- !u!1001 &1944275757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60460,6 +61137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1979050677}
+  - component: {fileID: 1979050678}
   m_Layer: 0
   m_Name: Point_1 (42)
   m_TagString: Untagged
@@ -60482,6 +61160,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1979050678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979050676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a1233578f667f41a82a49bd83c4f2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &1982118253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62541,6 +63237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2053289930}
+  - component: {fileID: 2053289931}
   m_Layer: 0
   m_Name: Point_1 (27)
   m_TagString: Untagged
@@ -62563,6 +63260,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2053289931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053289929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b0886d2bdfba64290f6ff68bcf8135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1 &2054010179
 GameObject:
   m_ObjectHideFlags: 0
@@ -62713,6 +63428,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2056908911}
+  - component: {fileID: 2056908912}
   m_Layer: 0
   m_Name: Point_1 (36)
   m_TagString: Untagged
@@ -62735,6 +63451,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 934122160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2056908912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056908910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15e41f93632c0ef47ac83bc799879abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1982538049}
+  accelerationTime: 1
+  CarGreen: {fileID: 564186016}
+  SecondGreenContinuation: {fileID: 649285436}
+  GreenMovingPointTarget: {fileID: 1982538050}
 --- !u!1 &2059589453
 GameObject:
   m_ObjectHideFlags: 0
@@ -63029,6 +63762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2069589186}
+  - component: {fileID: 2069589187}
   m_Layer: 0
   m_Name: Point_1 (52)
   m_TagString: Untagged
@@ -63051,6 +63785,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 484901813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2069589187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069589185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12aef290d20c2849832c8a964e806fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransformPoint: {fileID: 1415599670}
+  accelerationTime: 1
+  WhiteCar: {fileID: 21823270}
+  SecondWhiteCar: {fileID: 644322961}
+  ThirdWhiteCar: {fileID: 2056309945}
+  WhiteMovingPointTarget: {fileID: 1415599671}
 --- !u!1001 &2070196338
 PrefabInstance:
   m_ObjectHideFlags: 0
