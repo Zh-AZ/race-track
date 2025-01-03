@@ -7,7 +7,7 @@ public class WhitePoint_3 : WhitePoint_23
     // Update is called once per frame
     void Update()
     {
-        if (transform.position == TransformPoint.position)
+        if (transform.position == TargetPoint.position)
         {
             StartCoroutine(ChangeSpeed(20, WhiteCar));
 

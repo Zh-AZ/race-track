@@ -12,7 +12,7 @@ public class RedPoint_23 : BaseChangeSpeedCoroutine
     // Update is called once per frame
     void Update()
     {
-        if (transform.position == TransformPoint.position)
+        if (transform.position == TargetPoint.position)
         {
             StartCoroutine(ChangeSpeed(0, RedCar));
             StartCoroutine(ChangeSpeed(20, BlackCar));

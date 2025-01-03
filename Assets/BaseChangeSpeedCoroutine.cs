@@ -4,9 +4,15 @@ using UnityEngine;
 
 public abstract class BaseChangeSpeedCoroutine : MonoBehaviour
 {
-    [SerializeField] protected Transform TransformPoint;
+    [SerializeField] protected Transform TargetPoint;
     public float accelerationTime = 1f;
 
+    /// <summary>
+    /// »зменить скорость машины к указанному значению
+    /// </summary>
+    /// <param name="targetSpeed"></param>
+    /// <param name="car"></param>
+    /// <returns></returns>
     public IEnumerator ChangeSpeed(float targetSpeed, Moving car)
     {
         float initialSpeed = car.Speed;

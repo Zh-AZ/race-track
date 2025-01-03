@@ -8,17 +8,17 @@ public class Surveillance : MonoBehaviour
     public Transform whiteCar;
     public Transform redCar;
     public Transform blueCar;
+    public Transform[] transforms;
 
     public Camera[] cameras;
     public Camera RedCamera;
     public Camera BlackCamera;
     public Camera BlueCamera;
-
-    public Transform[] transforms;
+    public Camera HeliCamera;
 
     float seconds = 0;
 
-    // Start is called before the first frame update    // 9 14 19 23 31
+    // Start is called before the first frame update    
     void Start()
     {
         cameras[0].gameObject.SetActive(true);
@@ -85,14 +85,20 @@ public class Surveillance : MonoBehaviour
             cameras[2].gameObject.SetActive(false);
             cameras[3].gameObject.SetActive(true);
         }
-        else if (seconds >= 25 && seconds < 30)
+        else if (seconds >= 25 && seconds < 26)
         {
             cameras[3].gameObject.SetActive(false);
             cameras[4].gameObject.SetActive(true);
         }
-        else if (seconds >= 30 && seconds < 40)
+
+        else if (seconds >= 26 && seconds < 31)
         {
             cameras[4].gameObject.SetActive(false);
+            HeliCamera.gameObject.SetActive(true);
+        }
+        else if (seconds >= 31 && seconds < 40)
+        {
+            HeliCamera.gameObject.SetActive(false);
             cameras[5].gameObject.SetActive(true);
         }
         // Поворот направо Red
@@ -105,7 +111,6 @@ public class Surveillance : MonoBehaviour
         else if (seconds >= 43 && seconds < 47)
         {
             RedCamera.gameObject.SetActive(true);
-            //cameras[5].gameObject.SetActive(false);
             cameras[6].gameObject.SetActive(true);
         }
         
@@ -122,30 +127,21 @@ public class Surveillance : MonoBehaviour
             BlackCamera.gameObject.SetActive(true);
         }
         //----------
-        else if (seconds >= 56 && seconds < 71.40)
+        else if (seconds >= 56 && seconds < 75)
         {
             BlackCamera.gameObject.SetActive(false);
-            cameras[7].gameObject.SetActive(true);
+            HeliCamera.gameObject.SetActive(true);
         }
-        //
-        else if (seconds >= 71.40 && seconds < 75)
+        else if (seconds >= 75 && seconds < 87) 
         {
-            cameras[7].gameObject.SetActive(false);
-            cameras[8].gameObject.SetActive(true);
-        }
-        else if (seconds >= 75 && seconds < 87) // seconds < 93
-        {
-            cameras[8].gameObject.SetActive(false);
+            HeliCamera.gameObject.SetActive(false);
             cameras[9].gameObject.SetActive(true);
         }
-        // Второйй поворот Black
         else if (seconds >= 87 && seconds < 91)
         {
             cameras[9].gameObject.SetActive(false);
             BlackCamera.gameObject.SetActive(true);
         }
-        //----------
-        // 
         else if (seconds >= 91 && seconds < 93)
         {
             BlackCamera.gameObject.SetActive(false);
@@ -168,14 +164,20 @@ public class Surveillance : MonoBehaviour
             cameras[10].gameObject.SetActive(true);
         }
         //
-        else if (seconds >= 101.30 && seconds < 116)
+        else if (seconds >= 101.30 && seconds < 105)
         {
             cameras[10].gameObject.SetActive(false);
             cameras[11].gameObject.SetActive(true);
         }
-        else if (seconds >= 116 && seconds < 125)
+
+        else if (seconds >= 105 && seconds < 116)
         {
             cameras[11].gameObject.SetActive(false);
+            HeliCamera.gameObject.SetActive(true);
+        }
+        else if (seconds >= 116 && seconds < 125)
+        {
+            HeliCamera.gameObject.SetActive(false);
             cameras[12].gameObject.SetActive(true);
         }
         else if (seconds >= 125 && seconds < 128)
@@ -193,20 +195,26 @@ public class Surveillance : MonoBehaviour
             cameras[13].gameObject.SetActive(false);
             BlueCamera.gameObject.SetActive(true);
         }
+
         else if (seconds >= 145 && seconds < 150)
         {
             BlueCamera.gameObject.SetActive(false);
-            cameras[14].gameObject.SetActive(true);
+            HeliCamera.gameObject.SetActive(true);
         }
         else if (seconds >= 150 && seconds < 153)
         {
-            cameras[14].gameObject.SetActive(false);
+            HeliCamera.gameObject.SetActive(false);
             BlueCamera.gameObject.SetActive(true);
         }
-        else if (seconds >= 153)
+        else if (seconds >= 153 && seconds < 155)
         {
             BlueCamera.gameObject.SetActive(false);
             cameras[15].gameObject.SetActive(true);
+        }
+        else if (seconds >= 155)
+        {
+            cameras[15].gameObject.SetActive(false);
+            HeliCamera.gameObject.SetActive(true);
         }
     }
 }

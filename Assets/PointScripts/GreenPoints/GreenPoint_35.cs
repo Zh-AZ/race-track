@@ -6,7 +6,7 @@ public class GreenPoint_35 : GreenPoint_23
 {
     void Update()
     {
-        if (transform.position == TransformPoint.position)
+        if (transform.position == TargetPoint.position)
         {
             StartCoroutine(ChangeSpeed(15, SecondGreenContinuation));
 

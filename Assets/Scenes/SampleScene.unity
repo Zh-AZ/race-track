@@ -2550,7 +2550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8efa8b11353e1f54fadc5186fae1151e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -2837,6 +2837,7 @@ Transform:
   - {fileID: 80265659}
   - {fileID: 80265663}
   - {fileID: 80265657}
+  - {fileID: 482965176}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!4 &80265663
@@ -3479,7 +3480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23d064634bc773d4bb717705286d1d3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1982538049}
+  TargetPoint: {fileID: 1982538049}
   accelerationTime: 1
   CarGreen: {fileID: 564186016}
   SecondGreenContinuation: {fileID: 649285436}
@@ -3528,7 +3529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb5d2eb30430854fbbff818e05c216b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1982538049}
+  TargetPoint: {fileID: 1982538049}
   accelerationTime: 1
   CarGreen: {fileID: 564186016}
   SecondGreenContinuation: {fileID: 649285436}
@@ -4298,12 +4299,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103292413}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 137.7, y: 16.04, z: 166}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 191.79999, y: -13.869999, z: 144.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &103892623
 PrefabInstance:
@@ -4527,12 +4528,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112057918}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 230.5, y: 10.53, z: 109.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 284.6, y: -19.380001, z: 87.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &112558788
 PrefabInstance:
@@ -5012,7 +5013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f170e1792cc1a6438f7b688327bec4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -6732,7 +6733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a9e43e121979374ea52fa20da97ee13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -7134,12 +7135,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235839745}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 98, y: 10.53, z: 418.1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 152.1, y: -19.380001, z: 396.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &238084724
 GameObject:
@@ -7357,7 +7358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92f04de449c258a478068eeef3738764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -7500,7 +7501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6ac4972bf0fe6242aad8cb6cf0acea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -8322,7 +8323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2005d3741f308479493a5617df2e14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -9744,7 +9745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a5ba3efc393a14596d622d5558df93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -10895,6 +10896,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f80ceb6e166160f41b4b97a498a5eafb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TargetPoint: {fileID: 0}
+  accelerationTime: 1
   pointArray:
   - {fileID: 1684049658}
   - {fileID: 1611719606}
@@ -10971,7 +10974,6 @@ MonoBehaviour:
   indexCount: 0
   MinDistance: 1
   MaxDistance: 2
-  accelerationTime: 1
 --- !u!1 &340628050
 GameObject:
   m_ObjectHideFlags: 0
@@ -11119,12 +11121,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341063242}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -47.2, y: 28, z: 20.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.8999977, y: -1.9099998, z: -1.6000004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &345109909
 PrefabInstance:
@@ -11671,12 +11673,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367211275}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -99.2, y: 16.04, z: -98.7}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -45.1, y: -13.869999, z: -120.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &368664209
 PrefabInstance:
@@ -11931,12 +11933,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376658612}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 98, y: 10.53, z: 152.1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 152.1, y: -19.380001, z: 130.20001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &380823502
 GameObject:
@@ -12137,7 +12139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83593567d774ed94b8453346892f71ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -13353,7 +13355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c0292adaca3cfb4b8ca53e7154396ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -14580,7 +14582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b47c56e4954804385b1c77b09a08bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -14726,6 +14728,98 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3008536110013967675, guid: 2cfd7b9bf0392e74a89a76ce4a22ceaa, type: 3}
   m_PrefabInstance: {fileID: 482566068}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &482965173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 482965176}
+  - component: {fileID: 482965175}
+  - component: {fileID: 482965174}
+  m_Layer: 0
+  m_Name: HeliCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!81 &482965174
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482965173}
+  m_Enabled: 1
+--- !u!20 &482965175
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482965173}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 66
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 10
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &482965176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482965173}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.08388354, y: 0.05953163, z: -0.09441214, w: 0.99020505}
+  m_LocalPosition: {x: -1.4752787, y: 0.66945934, z: 0.7403397}
+  m_LocalScale: {x: 0.6687514, y: 0.6687514, z: 0.66875136}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 80265661}
+  m_LocalEulerAnglesHint: {x: -8.91, y: 7.78, z: -11.5}
 --- !u!1 &484901812
 GameObject:
   m_ObjectHideFlags: 0
@@ -15872,7 +15966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9fc9875b13540e46be4ab0afb181ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 0}
   BlackCar: {fileID: 0}
@@ -16805,7 +16899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d208b122b30cdf43b8d40c5adc23769, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -17159,12 +17253,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567405464}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -199, y: 16.04, z: 178.2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -144.9, y: -13.869999, z: 156.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &567854861
 PrefabInstance:
@@ -17780,7 +17874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46fcaddd7715605469ffc0ded247e481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1982538049}
+  TargetPoint: {fileID: 1982538049}
   accelerationTime: 1
   CarGreen: {fileID: 564186016}
   SecondGreenContinuation: {fileID: 649285436}
@@ -18641,7 +18735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 117c95ffed973354f8b9e4674ea0d611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -20801,7 +20895,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e6ed4a4d11cfcf04194d562a9a55d380, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -21131,7 +21225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef320841bc7ae5943add9c4f7e44e785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -21181,7 +21275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c199922e8046a0d4ebfe7eef11994034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 0}
   BlackCar: {fileID: 0}
@@ -21764,7 +21858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae608b20e445d874aa75b9883c2c7b4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1982538049}
+  TargetPoint: {fileID: 1982538049}
   accelerationTime: 1
   CarGreen: {fileID: 564186016}
   SecondGreenContinuation: {fileID: 649285436}
@@ -22128,6 +22222,23 @@ MonoBehaviour:
   whiteCar: {fileID: 644322960}
   redCar: {fileID: 5079092}
   blueCar: {fileID: 1900265688}
+  transforms:
+  - {fileID: 963194228}
+  - {fileID: 1225510979}
+  - {fileID: 399247434}
+  - {fileID: 809461285}
+  - {fileID: 23529516}
+  - {fileID: 1086577479}
+  - {fileID: 892493024}
+  - {fileID: 1237299925}
+  - {fileID: 1714840761}
+  - {fileID: 1739815655}
+  - {fileID: 1609022583}
+  - {fileID: 836417551}
+  - {fileID: 1895528969}
+  - {fileID: 1410283408}
+  - {fileID: 1551159684}
+  - {fileID: 1245803564}
   cameras:
   - {fileID: 963194227}
   - {fileID: 1225510978}
@@ -22148,23 +22259,7 @@ MonoBehaviour:
   RedCamera: {fileID: 968067081}
   BlackCamera: {fileID: 819088025}
   BlueCamera: {fileID: 340819547}
-  transforms:
-  - {fileID: 963194228}
-  - {fileID: 1225510979}
-  - {fileID: 399247434}
-  - {fileID: 809461285}
-  - {fileID: 23529516}
-  - {fileID: 1086577479}
-  - {fileID: 892493024}
-  - {fileID: 1237299925}
-  - {fileID: 1714840761}
-  - {fileID: 1739815655}
-  - {fileID: 1609022583}
-  - {fileID: 836417551}
-  - {fileID: 1895528969}
-  - {fileID: 1410283408}
-  - {fileID: 1551159684}
-  - {fileID: 1245803564}
+  HeliCamera: {fileID: 482965175}
 --- !u!1 &706519625
 GameObject:
   m_ObjectHideFlags: 0
@@ -22209,7 +22304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e27a2292b52e534a986d39136f70642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -22572,7 +22667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4201c950ede965543a33448fc5ecee88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -26467,7 +26562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1fc6185f8471784e8bebafcf4393b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -27577,12 +27672,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874362635}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.2188244, y: 39.6485, z: -25.299608}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 60.318825, y: 9.738499, z: -47.199608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &879902654
 GameObject:
@@ -29011,7 +29106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e76f9bd03276b324e86a9cc762e29107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -29991,6 +30086,14 @@ MonoBehaviour:
   whiteCar: {fileID: 0}
   redCar: {fileID: 0}
   blueCar: {fileID: 0}
+  transforms:
+  - {fileID: 963194228}
+  - {fileID: 1225510979}
+  - {fileID: 399247434}
+  - {fileID: 809461285}
+  - {fileID: 23529516}
+  - {fileID: 1086577479}
+  - {fileID: 892493024}
   cameras:
   - {fileID: 963194227}
   - {fileID: 1225510978}
@@ -30002,14 +30105,7 @@ MonoBehaviour:
   RedCamera: {fileID: 0}
   BlackCamera: {fileID: 0}
   BlueCamera: {fileID: 0}
-  transforms:
-  - {fileID: 963194228}
-  - {fileID: 1225510979}
-  - {fileID: 399247434}
-  - {fileID: 809461285}
-  - {fileID: 23529516}
-  - {fileID: 1086577479}
-  - {fileID: 892493024}
+  HeliCamera: {fileID: 0}
 --- !u!1001 &965830742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32926,7 +33022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 855cad51012ee75499988af4e567cbec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -33613,6 +33709,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3008536110013967675, guid: 2cfd7b9bf0392e74a89a76ce4a22ceaa, type: 3}
   m_PrefabInstance: {fileID: 1060629988}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1062753159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1062753160}
+  m_Layer: 0
+  m_Name: HeliPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1062753160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062753159}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -54.1, y: 29.91, z: 21.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1078268726}
+  - {fileID: 1290584658}
+  - {fileID: 103292414}
+  - {fileID: 1926990885}
+  - {fileID: 341063243}
+  - {fileID: 874362636}
+  - {fileID: 367211276}
+  - {fileID: 567405465}
+  - {fileID: 1158731837}
+  - {fileID: 1517399214}
+  - {fileID: 1281495948}
+  - {fileID: 1428938944}
+  - {fileID: 2014346673}
+  - {fileID: 1198791528}
+  - {fileID: 2126985835}
+  - {fileID: 376658613}
+  - {fileID: 235839746}
+  - {fileID: 1416473842}
+  - {fileID: 112057919}
+  - {fileID: 1255823356}
+  - {fileID: 1489092323}
+  - {fileID: 1931607681}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1064221105
 GameObject:
   m_ObjectHideFlags: 0
@@ -33966,12 +34115,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078268725}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 228.5, y: 9.73, z: -138.7}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 282.6, y: -20.18, z: -160.59999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1078661449
 PrefabInstance:
@@ -36308,12 +36457,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158731836}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -299.7, y: 16.04, z: 98.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -245.6, y: -13.869999, z: 76.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1158746291
 PrefabInstance:
@@ -37579,12 +37728,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198791527}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.2188244, y: 39.6485, z: -25.299608}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 60.318825, y: 9.738499, z: -47.199608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1199046294
 PrefabInstance:
@@ -39896,12 +40045,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255823355}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.4, y: 10.53, z: 119.7}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.699997, y: -19.380001, z: 97.799995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1255886376
 GameObject:
@@ -40319,7 +40468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a964a0bb9029634f8d20749a82b6ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -40931,12 +41080,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281495947}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -221.5, y: 16.04, z: -180.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -167.4, y: -13.869999, z: -202.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1282154520
 GameObject:
@@ -41382,12 +41531,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290584657}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.9, y: 16.04, z: 13}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 95, y: -13.869999, z: -8.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1297839918
 GameObject:
@@ -41912,7 +42061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87dbca913b2125e4c947cf77cba4a3dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -42055,7 +42204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c159899b6fd0cd14abc42da29427a971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -42805,7 +42954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2078a605d7331644bafadcc189bf2462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1982538049}
+  TargetPoint: {fileID: 1982538049}
   accelerationTime: 1
   CarGreen: {fileID: 564186016}
   SecondGreenContinuation: {fileID: 649285436}
@@ -44359,6 +44508,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d1111ac189d7347a06d9372e953b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TargetPoint: {fileID: 0}
+  accelerationTime: 1
   pointArray:
   - {fileID: 1259851417}
   - {fileID: 703886660}
@@ -44435,7 +44586,6 @@ MonoBehaviour:
   indexCount: 0
   MinDistance: 1
   MaxDistance: 2
-  accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
   ThirdWhiteCar: {fileID: 2056309945}
@@ -44525,12 +44675,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416473841}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 231, y: 10.53, z: 302}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 285.1, y: -19.380001, z: 280.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1417966966
 PrefabInstance:
@@ -44884,12 +45034,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428938943}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -79.4, y: 10.53, z: -100.8}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -25.300003, y: -19.380001, z: -122.700005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1429035850
 GameObject:
@@ -44935,7 +45085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d31c70cb80caae4183e857a6f975f14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -46306,6 +46456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 125bb4f8b96de90469277850d9c94303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TargetPoint: {fileID: 0}
+  accelerationTime: 1
   pointArray:
   - {fileID: 1696828757}
   - {fileID: 270507186}
@@ -46382,7 +46534,6 @@ MonoBehaviour:
   indexCount: 0
   MinDistance: 1
   MaxDistance: 2
-  accelerationTime: 1
   PurpleCar: {fileID: 1119263387}
 --- !u!1001 &1481473654
 PrefabInstance:
@@ -47049,12 +47200,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489092322}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.2188244, y: 39.6485, z: -25.299608}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 60.318825, y: 9.738499, z: -47.199608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1490399503
 PrefabInstance:
@@ -47861,12 +48012,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517399213}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -99.5, y: 16.04, z: -2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -45.4, y: -13.869999, z: -23.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1518980665
 PrefabInstance:
@@ -50787,7 +50938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e819691931fc99a4b9c5e6284f03c255, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1982538049}
+  TargetPoint: {fileID: 1982538049}
   accelerationTime: 1
   CarGreen: {fileID: 564186016}
   SecondGreenContinuation: {fileID: 649285436}
@@ -52357,7 +52508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40771f814fef29e43b6f14a169a5d807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -53095,7 +53246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca35921371bf2f54aa650769345b1dad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -58129,7 +58280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2918edcca4e4814daec639721725a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 0}
   BlackCar: {fileID: 485667000}
@@ -59213,7 +59364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab5c361c157f8c438002ba38b8beb9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -59356,7 +59507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47a0843ccd4d12c4fa7641a24898d17f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1982538049}
+  TargetPoint: {fileID: 1982538049}
   accelerationTime: 1
   CarGreen: {fileID: 564186016}
   SecondGreenContinuation: {fileID: 649285436}
@@ -59854,12 +60005,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926990884}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.1, y: 16.04, z: 130.1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35, y: -13.869999, z: 108.200005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1928292598
 PrefabInstance:
@@ -59987,12 +60138,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931607680}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -54.1, y: 29.91, z: 21.9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1936305384
 PrefabInstance:
@@ -60256,7 +60407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9687ad5be571bf4ba921ed4fbc0916d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 340369505}
+  TargetPoint: {fileID: 340369505}
   accelerationTime: 1
   RedCar: {fileID: 5079091}
   BlackCar: {fileID: 485667000}
@@ -61172,7 +61323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6a1233578f667f41a82a49bd83c4f2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -61284,6 +61435,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 107ff1e93e8cd0042a36dbab31edf996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TargetPoint: {fileID: 0}
+  accelerationTime: 1
   pointArray:
   - {fileID: 1900667664}
   - {fileID: 1971943629}
@@ -61360,7 +61513,6 @@ MonoBehaviour:
   indexCount: 0
   MinDistance: 1
   MaxDistance: 2
-  accelerationTime: 1
   CarGreen: {fileID: 564186016}
   SecondGreenContinuation: {fileID: 649285436}
 --- !u!1001 &1982796780
@@ -61984,12 +62136,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014346672}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -74.3, y: 10.53, z: 199.2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -20.200005, y: -19.380001, z: 177.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2015775225
 PrefabInstance:
@@ -63272,7 +63424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67b0886d2bdfba64290f6ff68bcf8135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -63463,7 +63615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15e41f93632c0ef47ac83bc799879abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1982538049}
+  TargetPoint: {fileID: 1982538049}
   accelerationTime: 1
   CarGreen: {fileID: 564186016}
   SecondGreenContinuation: {fileID: 649285436}
@@ -63551,7 +63703,6 @@ MonoBehaviour:
   target: {x: 0, y: 0, z: 0}
   indexCount: 0
   Speed: 25
-  accelerationTime: 1
 --- !u!4 &2061833390
 Transform:
   m_ObjectHideFlags: 0
@@ -63797,7 +63948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f12aef290d20c2849832c8a964e806fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransformPoint: {fileID: 1415599670}
+  TargetPoint: {fileID: 1415599670}
   accelerationTime: 1
   WhiteCar: {fileID: 21823270}
   SecondWhiteCar: {fileID: 644322961}
@@ -64913,12 +65064,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126985834}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -85.4, y: 10.53, z: 357.6}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -31.300003, y: -19.380001, z: 335.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1062753160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2128951573
 PrefabInstance:
@@ -65568,25 +65719,4 @@ SceneRoots:
   - {fileID: 80265661}
   - {fileID: 2061833390}
   - {fileID: 16347626}
-  - {fileID: 1078268726}
-  - {fileID: 1290584658}
-  - {fileID: 103292414}
-  - {fileID: 1926990885}
-  - {fileID: 341063243}
-  - {fileID: 874362636}
-  - {fileID: 367211276}
-  - {fileID: 567405465}
-  - {fileID: 1158731837}
-  - {fileID: 1517399214}
-  - {fileID: 1281495948}
-  - {fileID: 1428938944}
-  - {fileID: 2014346673}
-  - {fileID: 1198791528}
-  - {fileID: 2126985835}
-  - {fileID: 376658613}
-  - {fileID: 235839746}
-  - {fileID: 1416473842}
-  - {fileID: 112057919}
-  - {fileID: 1255823356}
-  - {fileID: 1489092323}
-  - {fileID: 1931607681}
+  - {fileID: 1062753160}
