@@ -145,17 +145,17 @@ public class Surveillance : MonoBehaviour
         else if (seconds >= 91 && seconds < 93)
         {
             BlackCamera.gameObject.SetActive(false);
-            cameras[9].gameObject.SetActive(true);
+            HeliCamera.gameObject.SetActive(true);
         }
         //----------
         else if (seconds >= 93 && seconds < 95)
         {
-            cameras[9].gameObject.SetActive(false);
+            HeliCamera.gameObject.SetActive(false);
             BlackCamera.gameObject.SetActive(true);
         }
         else if (seconds >= 95 && seconds < 98)
         {
-            BlackCamera.gameObject.SetActive(true);
+            BlackCamera.gameObject.SetActive(false);
             cameras[7].gameObject.SetActive(true);
         }
         else if (seconds >= 98 && seconds < 101.30)
